@@ -38,8 +38,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 3529,
-      "sha256": "86f446572f3774231778fac754e8902efc203267e5c46d7dbb41517642563a10"
+      "size_bytes": 3262,
+      "sha256": "d5a9f670d65498f24017f1812fb17873709dd8d7a0980fb828354c880cde2b2d"
     },
     {
       "path": "VERSION",
@@ -65,11 +65,6 @@
       "path": "data/raw/.gitkeep",
       "size_bytes": 1,
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-    },
-    {
-      "path": "docs/GITHUB_PUBLISHING.md",
-      "size_bytes": 1621,
-      "sha256": "4fb1cf9ab0f15ab74200416fdf36b9dd8a771bf86cfd5266c3db585cb5244770"
     },
     {
       "path": "docs/PAPER_TO_CODE.md",
@@ -1228,8 +1223,8 @@
     },
     {
       "path": "paper/Project_Montecito_Paper_v1_9.md",
-      "size_bytes": 77351,
-      "sha256": "ec4c866a9d2052c1789c15b652f1c66eb0370785e3d433224abd49df9f3d25c3"
+      "size_bytes": 183,
+      "sha256": "76b5eb5623b2345343f4c7cb6716fc131e5b56a6312c0a9241e2c2bbdd7c0aa7"
     },
     {
       "path": "paper/README.md",
