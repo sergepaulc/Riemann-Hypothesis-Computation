@@ -70,6 +70,3 @@ The downloader fetches from the authoritative source and fails if a SHA-256 fing
 
 Original code and documentation are released under the MIT License. Third-party data are excluded from that grant; see [NOTICE.md](NOTICE.md). Citation metadata are in [CITATION.cff](CITATION.cff).
 
-## Historical naming
-
-The internal research project and many frozen artifacts were historically named **Project Montecito**. Those immutable filenames and records are preserved for provenance. The public GitHub repository is named **Riemann-Hypothesis-Computation**.
