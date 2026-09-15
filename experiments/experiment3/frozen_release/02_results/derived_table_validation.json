@@ -1,0 +1,19 @@
+{
+  "document_id": "Experiment3BS_Derived_Table_Validation_v1_1",
+  "endpoint_rows": 176,
+  "generated_files": [
+    "group_summary.csv",
+    "mu4_difference_decomposition_vs_cue.csv"
+  ],
+  "group_counts": {
+    "CUE": 64,
+    "D0_first_10000": 16,
+    "D1_near_1e12": 16,
+    "D2_near_1e21": 16,
+    "Poisson": 64
+  },
+  "max_group_identity_error_raw_minus_pair_minus_gt2": 9.43689570931383e-16,
+  "source": "02_results/all_window_endpoints.csv",
+  "status": "PASS",
+  "tolerance": 1e-12
+}

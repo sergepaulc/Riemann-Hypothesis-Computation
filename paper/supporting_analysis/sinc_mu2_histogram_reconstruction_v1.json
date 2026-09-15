@@ -1,0 +1,44 @@
+{
+  "geometry": {
+    "outer_points": 512,
+    "core_points": 128,
+    "halo_points_each_side": 192,
+    "continuous_core_length": 128.0,
+    "continuous_halo_length": 192.0
+  },
+  "truncated_sine_mu2": 1.3329289780277664,
+  "finite_CUE_N512_pair_density_mu2": 1.3329283424098648,
+  "finite_N_correction": -6.356179016453467e-07,
+  "observed_CUE_mu2_mean_64": 1.326307870427889,
+  "observed_CUE_window_sd": 0.0222033583679232,
+  "observed_CUE_mean_se_64": 0.0027754197959904,
+  "observed_CUE_minus_truncated_sine": -0.0066211075998774405,
+  "observed_CUE_minus_truncated_sine_in_SE": -2.385623828670113,
+  "histogram_tail_completion_mu2_using_R2_equal_1": 0.0029728272618295025,
+  "exact_sine_tail_mu2": 0.002972732420585257,
+  "tail_completion_difference": 9.484124424566712e-08,
+  "dataset_rows": [
+    {
+      "dataset": "Z0",
+      "mu2_histogram_reconstruction": 1.3002153500787317,
+      "difference_from_truncated_sine": -0.03271362794903476,
+      "experiment3_16_window_mu2_mean": 1.296465689259639,
+      "window_mean_minus_histogram_reconstruction": -0.0037496608190927816
+    },
+    {
+      "dataset": "Z12",
+      "mu2_histogram_reconstruction": 1.331301110647575,
+      "difference_from_truncated_sine": -0.0016278673801914945,
+      "experiment3_16_window_mu2_mean": 1.337000198457563,
+      "window_mean_minus_histogram_reconstruction": 0.005699087809988068
+    },
+    {
+      "dataset": "Z21",
+      "mu2_histogram_reconstruction": 1.3371805900300358,
+      "difference_from_truncated_sine": 0.004251612002269312,
+      "experiment3_16_window_mu2_mean": 1.3313640395899675,
+      "window_mean_minus_histogram_reconstruction": -0.0058165504400682355
+    }
+  ],
+  "interpretation": "The full-sample pair-histogram reconstruction agrees in sign with Experiment 1: Z0 and Z12 are below the truncated-sine mu2 benchmark, while Z21 is above it. The direct 16-window Experiment 3 means reverse the ordering of Z12 and Z21, showing that the earlier marginal-Z12 wording is not robust to benchmark and sampling geometry."
+}

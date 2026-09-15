@@ -1,0 +1,97 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "d9e295c60df669d50016ffaab1aa3a2c8a9703f0c804a48374b46f87d22ff4d7",
+    "bytes": 559
+  },
+  {
+    "path": "03_report/Experiment2_Peer_Review_Handoff_v1.md",
+    "sha256": "19802d3cd74d20c7928df405d3a90bf71bca68917974d2fda14743139ac61970",
+    "bytes": 1721
+  },
+  {
+    "path": "03_report/Experiment2_Validation_Extension_v1.md",
+    "sha256": "f4bd69d1a7dbb862ad17a642b95486043827b2186e6d7ea80af218dfbe0923e0",
+    "bytes": 9149
+  },
+  {
+    "path": "01_results/independent_inertia_all_sigma.csv",
+    "sha256": "c2b32adf79dc8e9b1274e08678cdb5cf21ebbdf2b3dd5879fe6f277ece040953",
+    "bytes": 1082910
+  },
+  {
+    "path": "01_results/pooled_spectrum_quantiles_m512_sigma1.csv",
+    "sha256": "763354ca1ac26a5548de7914acfe1b2290943a6c0bed4cda3b55d16b96a05905",
+    "bytes": 2013
+  },
+  {
+    "path": "01_results/independent_inertia_summary_all_sigma.csv",
+    "sha256": "a13146714ee17a631bed59f254cce30152f30daa520bad2ae90952e43765415d",
+    "bytes": 26957
+  },
+  {
+    "path": "01_results/sigma_sensitivity_summary.csv",
+    "sha256": "64e9335b91e2be55080c0d958ab9ebb05146adfb6848f36488069e45f8cef216",
+    "bytes": 6146
+  },
+  {
+    "path": "01_results/analytic_kernel_benchmarks.csv",
+    "sha256": "cb36147742f97fd3ebbb8f346276be2fab491d8110cba5260251cc4420ae3c27",
+    "bytes": 148
+  },
+  {
+    "path": "01_results/independent_full_dataset_pair_bridge_all_sigma.csv",
+    "sha256": "3d97d775d882e0dfbe7638e0b9a5049fb3c9a655949cf96b66b03ca210951e19",
+    "bytes": 1670
+  },
+  {
+    "path": "01_results/pooled_spectrum_distances_m512_sigma1.csv",
+    "sha256": "2fb46e3ec99e0b2ea87ed1734951a07cecb572a0d181a30d070915b2d9f597e5",
+    "bytes": 248
+  },
+  {
+    "path": "01_results/independent_block_metrics_all_sigma.csv",
+    "sha256": "a7d82788847f8b4bcafbed060b65fea22bdb435e054adb29a2de5df54cc6cb4f",
+    "bytes": 173372
+  },
+  {
+    "path": "01_results/spectral_summary_sigma1.csv",
+    "sha256": "12d6963f1b2ae996a7b80f4a9424c70e4638905be2565ef306aa2d2ce96d7866",
+    "bytes": 1704
+  },
+  {
+    "path": "01_results/spectral_diagnostics_sigma1.csv",
+    "sha256": "0dcc6b28ad26bd07f0dd8ad145030e524ba00e9dd57a38ee51c256954b9b28ea",
+    "bytes": 63413
+  },
+  {
+    "path": "01_results/independent_reproduction_differences.json",
+    "sha256": "ddec67b390a507b8c655877dc207ba2e7b6d26855a07ae7aeb54516179e248a3",
+    "bytes": 926
+  },
+  {
+    "path": "02_figures/primary_Dc_locations_sigma_2.png",
+    "sha256": "72d6308902641cf12287d4eaeea518a18f161535738ce26afd17e3b8c562b542",
+    "bytes": 53248
+  },
+  {
+    "path": "02_figures/spectral_upper_edge_by_height.png",
+    "sha256": "5cf7acc393029c3a952be0b4767dda7cad12b25c6014be59efadd827e81a0d19",
+    "bytes": 93870
+  },
+  {
+    "path": "02_figures/primary_Dc_locations_sigma_1.png",
+    "sha256": "e36483d67b90e8d8aed6f67b4f4275626b01b06ec8a3ba7055ac7854c4b8764d",
+    "bytes": 59451
+  },
+  {
+    "path": "02_figures/primary_Dc_locations_sigma_0p5.png",
+    "sha256": "0a958b0a2eb9cab0c0f031d5bd03a5bf2cd0ba60415912a3ff9cc0f7f1d5b0b4",
+    "bytes": 55059
+  },
+  {
+    "path": "src/independent_validate.py",
+    "sha256": "d077fb776d37ffd199bf3c8bd5681e4c42908ba1ab515173c1aefe92eadc1f3c",
+    "bytes": 10954
+  }
+]

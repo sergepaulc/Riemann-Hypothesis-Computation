@@ -1,0 +1,4 @@
+dataset,positive_blocks,n_blocks,two_sided_binomial_sign_p,interpretation
+first_10000,10,10,0.001953125,descriptive sign-consistency check; formal binomial interpretation assumes independent equiprobable signs under the null
+near_1e12,7,10,0.34375,descriptive sign-consistency check; formal binomial interpretation assumes independent equiprobable signs under the null
+near_1e21,3,10,0.34375,descriptive sign-consistency check; formal binomial interpretation assumes independent equiprobable signs under the null

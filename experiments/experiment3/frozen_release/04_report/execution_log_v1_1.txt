@@ -1,0 +1,19 @@
+protocol_sha256=815e08aec7f55ddb5ba00655a24df77be94bad9b05384027c39a0c316a16251e
+window_starts=[0, 633, 1265, 1898, 2530, 3163, 3795, 4428, 5060, 5693, 6325, 6958, 7590, 8223, 8855, 9488]
+completed D0_first_10000: 16 windows
+completed D1_near_1e12: 16 windows
+completed D2_near_1e21: 16 windows
+completed CUE 8/64
+completed CUE 16/64
+completed CUE 24/64
+completed CUE 32/64
+completed CUE 40/64
+completed CUE 48/64
+completed CUE 56/64
+completed CUE 64/64
+completed Poisson 64/64
+{
+  "status": "EXPERIMENT3BS_COMPLETE_CORRECTED_RELEASE_V1_1",
+  "elapsed_seconds": 37.02908601499996,
+  "peak_rss_gib": 0.16365814208984375
+}

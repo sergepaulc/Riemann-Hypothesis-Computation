@@ -1,0 +1,20 @@
+{
+  "corrected_release": "Project_Montecito_Experiment3BS_v1.1",
+  "document_id": "Experiment3BS_v1_to_v1_1_Scientific_Equivalence_Check",
+  "endpoint_maximum_absolute_difference": 0.0,
+  "endpoint_numeric_values_compared": 2112,
+  "excluded_as_non_scientific_or_superseded": [
+    "runtime and peak-memory fields",
+    "document identifiers and release labels",
+    "legacy reconstruction_relative_error field, retired as evidentiary check",
+    "new uncertainty-scale and independent-validation fields"
+  ],
+  "json_scientific_comparison": {
+    "maximum_absolute_difference": 0.0,
+    "nonzero_differences": {},
+    "numeric_fields_compared": 388
+  },
+  "reference_release": "Project_Montecito_Experiment3_Bounded_Cloud_Closure_v1",
+  "status": "PASS",
+  "tolerance": 1e-12
+}

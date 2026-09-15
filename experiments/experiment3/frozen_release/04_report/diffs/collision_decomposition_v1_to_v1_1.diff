@@ -1,0 +1,75 @@
+--- v1/01_code/runtime_src/collision_decomposition.py
++++ v1.1/01_code/runtime_src/collision_decomposition.py
+@@ -1,7 +1,15 @@
+-"""Exact fourth-moment collision decomposition with core-row memory scaling."""
++"""Fourth-moment collision decomposition with core-row memory scaling.
++
++The production all-distinct term ``Q4`` is computed as the residual after the
++one-, two-, and three-distinct-index terms are evaluated.  Consequently, adding
++those terms back is only an algebraic closure identity, not an independent
++validation.  Independent brute-force validation for small matrices is shipped
++under ``01_code/tests`` and recorded in the release report.
++"""
+ from __future__ import annotations
+ 
+-from dataclasses import dataclass, asdict
++from dataclasses import asdict, dataclass
++
+ import numpy as np
+ 
+ from .spectral_moments import core_product_rows
+@@ -35,6 +43,11 @@
+         return float(self.core_size) + self.pair_part + self.higher_distinct_part
+ 
+     @property
++    def algebraic_closure_residual_by_construction(self) -> float:
++        """Residual of the defining identity; not an independent check."""
++        return self.direct_numerator - self.reconstructed_numerator
++
++    @property
+     def mu4_raw(self) -> float:
+         return self.direct_numerator / self.core_size
+ 
+@@ -54,10 +67,15 @@
+                 "three_index_part": self.three_index_part,
+                 "higher_distinct_part": self.higher_distinct_part,
+                 "reconstructed_numerator": self.reconstructed_numerator,
++                "algebraic_closure_residual_by_construction": self.algebraic_closure_residual_by_construction,
+                 "mu4_raw": self.mu4_raw,
+                 "mu4_gt2": self.mu4_gt2,
+                 "q4_per_core": self.q4_per_core,
+-                "reconstruction_error": self.direct_numerator - self.reconstructed_numerator,
++                "q4_computation_note": (
++                    "Q4 is the residual after independently computing the one-, two-, "
++                    "and three-distinct-index classes. Validate Q4 with the shipped "
++                    "brute-force small-matrix tests, not with this closure residual."
++                ),
+             }
+         )
+         return data
+@@ -85,12 +103,13 @@
+     *,
+     precomputed_rows: tuple[np.ndarray, np.ndarray] | None = None,
+ ) -> AnchoredCollisionTerms:
+-    """Compute the exact anchored decomposition with bounded temporary memory.
++    """Compute the anchored decomposition with bounded temporary memory.
+ 
+     For a core of size ``c`` inside an ``n``-point halo, the dominant product is
+     ``K[core,:] @ K`` and therefore stores only ``c x n`` rows of K².  The all-
+-    distinct Q4 contribution is recovered as the exact residual after independently
+-    computing the one-, two-, and three-distinct-index classes.
++    distinct Q4 contribution is recovered as the residual after computing the
++    one-, two-, and three-distinct-index classes.  That production shortcut is
++    independently tested by explicit enumeration on small matrices.
+     """
+     A, core = _validate(K, core_indices)
+     K_core, K2_core = precomputed_rows or core_product_rows(A, core)
+@@ -121,8 +140,3 @@
+     q4 = direct - float(core.size) - 6.0 * s2 - s4 - 4.0 * t3 - w30 - w31
+ 
+     return AnchoredCollisionTerms(int(core.size), s2, s4, t3, w30, w31, q4, direct)
+-
+-
+-def reconstruction_passes(terms: AnchoredCollisionTerms, tol: float = 1e-10) -> bool:
+-    scale = max(1.0, abs(terms.direct_numerator))
+-    return abs(terms.direct_numerator - terms.reconstructed_numerator) <= tol * scale

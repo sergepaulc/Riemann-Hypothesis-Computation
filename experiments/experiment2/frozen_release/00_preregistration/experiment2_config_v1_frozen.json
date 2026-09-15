@@ -1,0 +1,241 @@
+{
+  "project": "Project Montecito",
+  "experiment": "Experiment 2 \u2014 Indefinite Hermitian Apparatus",
+  "specification_version": "0.6",
+  "preregistration_date": "2026-08-31",
+  "primary_dataset": "low_height_first_10000",
+  "secondary_controls": [
+    "near_1e12",
+    "near_1e21"
+  ],
+  "kernel": {
+    "name": "gaussian",
+    "formula": "exp(-u^2/(2 sigma^2))",
+    "sigma_primary": 1.0,
+    "matrix_kernel_truncated": false
+  },
+  "lambda_grid": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "block_sizes": [
+    128,
+    256,
+    512
+  ],
+  "block_location_rule": "16 evenly spaced 512-block starts from index 1 through 9489 inclusive; 256/128 blocks nested concentrically inside each 512 block",
+  "blocks": [
+    {
+      "location_id": 1,
+      "midpoint_index_1based": 256.5,
+      "m512_start_1based": 1,
+      "m512_end_1based": 512,
+      "m256_start_1based": 129,
+      "m256_end_1based": 384,
+      "m128_start_1based": 193,
+      "m128_end_1based": 320
+    },
+    {
+      "location_id": 2,
+      "midpoint_index_1based": 889.5,
+      "m512_start_1based": 634,
+      "m512_end_1based": 1145,
+      "m256_start_1based": 762,
+      "m256_end_1based": 1017,
+      "m128_start_1based": 826,
+      "m128_end_1based": 953
+    },
+    {
+      "location_id": 3,
+      "midpoint_index_1based": 1521.5,
+      "m512_start_1based": 1266,
+      "m512_end_1based": 1777,
+      "m256_start_1based": 1394,
+      "m256_end_1based": 1649,
+      "m128_start_1based": 1458,
+      "m128_end_1based": 1585
+    },
+    {
+      "location_id": 4,
+      "midpoint_index_1based": 2154.5,
+      "m512_start_1based": 1899,
+      "m512_end_1based": 2410,
+      "m256_start_1based": 2027,
+      "m256_end_1based": 2282,
+      "m128_start_1based": 2091,
+      "m128_end_1based": 2218
+    },
+    {
+      "location_id": 5,
+      "midpoint_index_1based": 2786.5,
+      "m512_start_1based": 2531,
+      "m512_end_1based": 3042,
+      "m256_start_1based": 2659,
+      "m256_end_1based": 2914,
+      "m128_start_1based": 2723,
+      "m128_end_1based": 2850
+    },
+    {
+      "location_id": 6,
+      "midpoint_index_1based": 3419.5,
+      "m512_start_1based": 3164,
+      "m512_end_1based": 3675,
+      "m256_start_1based": 3292,
+      "m256_end_1based": 3547,
+      "m128_start_1based": 3356,
+      "m128_end_1based": 3483
+    },
+    {
+      "location_id": 7,
+      "midpoint_index_1based": 4051.5,
+      "m512_start_1based": 3796,
+      "m512_end_1based": 4307,
+      "m256_start_1based": 3924,
+      "m256_end_1based": 4179,
+      "m128_start_1based": 3988,
+      "m128_end_1based": 4115
+    },
+    {
+      "location_id": 8,
+      "midpoint_index_1based": 4684.5,
+      "m512_start_1based": 4429,
+      "m512_end_1based": 4940,
+      "m256_start_1based": 4557,
+      "m256_end_1based": 4812,
+      "m128_start_1based": 4621,
+      "m128_end_1based": 4748
+    },
+    {
+      "location_id": 9,
+      "midpoint_index_1based": 5316.5,
+      "m512_start_1based": 5061,
+      "m512_end_1based": 5572,
+      "m256_start_1based": 5189,
+      "m256_end_1based": 5444,
+      "m128_start_1based": 5253,
+      "m128_end_1based": 5380
+    },
+    {
+      "location_id": 10,
+      "midpoint_index_1based": 5949.5,
+      "m512_start_1based": 5694,
+      "m512_end_1based": 6205,
+      "m256_start_1based": 5822,
+      "m256_end_1based": 6077,
+      "m128_start_1based": 5886,
+      "m128_end_1based": 6013
+    },
+    {
+      "location_id": 11,
+      "midpoint_index_1based": 6581.5,
+      "m512_start_1based": 6326,
+      "m512_end_1based": 6837,
+      "m256_start_1based": 6454,
+      "m256_end_1based": 6709,
+      "m128_start_1based": 6518,
+      "m128_end_1based": 6645
+    },
+    {
+      "location_id": 12,
+      "midpoint_index_1based": 7214.5,
+      "m512_start_1based": 6959,
+      "m512_end_1based": 7470,
+      "m256_start_1based": 7087,
+      "m256_end_1based": 7342,
+      "m128_start_1based": 7151,
+      "m128_end_1based": 7278
+    },
+    {
+      "location_id": 13,
+      "midpoint_index_1based": 7846.5,
+      "m512_start_1based": 7591,
+      "m512_end_1based": 8102,
+      "m256_start_1based": 7719,
+      "m256_end_1based": 7974,
+      "m128_start_1based": 7783,
+      "m128_end_1based": 7910
+    },
+    {
+      "location_id": 14,
+      "midpoint_index_1based": 8479.5,
+      "m512_start_1based": 8224,
+      "m512_end_1based": 8735,
+      "m256_start_1based": 8352,
+      "m256_end_1based": 8607,
+      "m128_start_1based": 8416,
+      "m128_end_1based": 8543
+    },
+    {
+      "location_id": 15,
+      "midpoint_index_1based": 9111.5,
+      "m512_start_1based": 8856,
+      "m512_end_1based": 9367,
+      "m256_start_1based": 8984,
+      "m256_end_1based": 9239,
+      "m128_start_1based": 9048,
+      "m128_end_1based": 9175
+    },
+    {
+      "location_id": 16,
+      "midpoint_index_1based": 9744.5,
+      "m512_start_1based": 9489,
+      "m512_end_1based": 10000,
+      "m256_start_1based": 9617,
+      "m256_end_1based": 9872,
+      "m128_start_1based": 9681,
+      "m128_end_1based": 9808
+    }
+  ],
+  "screening_threshold": "1e-10 * max(1, ||H_lambda||_2)",
+  "borderline_rule": "higher-precision escalation; otherwise report numerically unresolved",
+  "spectrum_first": true,
+  "direct_H_verification": {
+    "location_ids": [
+      1,
+      8,
+      16
+    ],
+    "block_sizes": [
+      128,
+      256,
+      512
+    ],
+    "lambdas": [
+      0.1,
+      0.5,
+      0.95
+    ]
+  },
+  "pair_correlation_u_max": 30.0,
+  "pair_correlation_bin_width": 0.1,
+  "pair_bridge": "finite-window translation-edge prediction using frozen empirical R2, block-specific L and rho^2=m(m-1)/L^2",
+  "tail_bound_primary": "m(m-1) exp(-900), m<=512",
+  "input_sha256": {
+    "low_height_points": "de949c189fd6f0850028c65dc3a8d9830e579f54c50ebbf564c563b09e7c1c7a",
+    "low_height_pair_correlation": "a12a37dc693e8615fdd904c8cce42cad053dabbcdb1f7118f3c4cf7bc43a06aa",
+    "near_1e12_points": "ed762a6863eb3c2a0f3b9d5a91d1bce6a99d976b3c10112b73a1f1e3e31a0360",
+    "near_1e12_pair_correlation": "b203faaa0426cc262bf88401495518633026464fb0f7196e3338e8c37799ee7e",
+    "near_1e21_points": "fae0106ab0486c84b361f9772a643653944e1b2e9a8720540240a1bb65952140",
+    "near_1e21_pair_correlation": "85797f352d44c73a6c849e3aac126fde79c93a757e23795c0454c86a5e1662ba"
+  },
+  "notes": [
+    "No spectra were computed before this configuration was written.",
+    "High-height samples are secondary controls and do not replace the frozen primary low-height sample."
+  ]
+}

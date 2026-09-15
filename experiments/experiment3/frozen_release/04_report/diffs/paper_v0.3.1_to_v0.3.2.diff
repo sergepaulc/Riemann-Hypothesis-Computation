@@ -1,0 +1,212 @@
+--- paper/v0.3.1
++++ paper/v0.3.2
+@@ -2,14 +2,14 @@
+ 
+ ## Pair correlation, a first Hermitian instrument, and a bounded sinc-kernel study
+ 
+-### Project Montecito — Simple Paper Draft v0.3.1
++### Project Montecito — Simple Paper Draft v0.3.2
+ 
+ **Date:** September 11, 2026  
+-**Status:** Working draft after closure of the bounded Experiment 3 study  
++**Status:** Corrected working draft after independent peer review of the bounded Experiment 3 study  
+ 
+ ## Abstract
+ 
+-Project Montecito is a three-stage computational exploration of structure in the ordinates of Riemann-zeta zeros. Experiment 1 measures pair correlation and identifies a pronounced finite-height deformation in the first zeros that is no longer resolved in two much higher samples. Experiment 2 passes the ordinates through a Gaussian Hermitian instrument; the computation is valid, but analysis shows that most of its principal observables contain no more than two-point information. This limitation motivates Experiment 3, a bounded study of sinc-kernel spectral moments. Exact controls demonstrate that the fourth moment can distinguish configurations sharing the same unordered pair-distance multiset, while comparisons with lattice, Poisson, finite CUE, and zeta data reveal a coherent transition toward the random-matrix benchmark at high height. A collision decomposition also shows that much of the raw fourth-moment displacement remains pair-driven. We claim neither a new higher-order law nor evidence for the Riemann Hypothesis. The contribution is the computational journey itself: measuring pair structure, identifying the information ceiling of a first instrument, and testing a more appropriate higher-order-capable observable.
++Project Montecito is a three-stage computational exploration of structure in the ordinates of Riemann-zeta zeros. Experiment 1 measures pair correlation and identifies a pronounced finite-height deformation in the first zeros that is no longer resolved in two much higher samples. Experiment 2 passes the ordinates through a Gaussian Hermitian instrument; the computation is valid, but analysis shows that most of its principal observables contain no more than two-point information. This limitation motivates Experiment 3, a bounded study of sinc-kernel spectral moments. An exact homometric control demonstrates that the fourth moment can distinguish configurations sharing the same unordered pair-distance multiset. In the zeta comparison, the first zeros remain displaced from finite CUE, the sample near zero number \(10^{12}\) lies marginally above the identically windowed CUE ensemble, and the sample near \(10^{21}\) is consistent with it at the resolution of this study. A collision decomposition also shows that much of the raw fourth-moment displacement remains pair-driven. We claim neither a new higher-order law nor evidence for the Riemann Hypothesis. The contribution is the computational journey itself: measuring pair structure, identifying the information ceiling of a first instrument, and testing a more appropriate higher-order-capable observable.
+ 
+ ---
+ 
+@@ -207,9 +207,9 @@
+ 
+ ## 4.1 Scope decision
+ 
+-A comprehensive Experiment 3 was designed and preregistered, including large CUE ensembles, halo convergence, pair-matched gap-block surrogates, power gates, and an independent confirmation block. That program is preserved for possible future work.
++A more extensive version of Experiment 3 was designed and archived for possible future work. The present paper does not depend on that larger program.
+ 
+-For Project Montecito Version 1, however, we adopt a bounded closure study that can be run once in a small cloud environment and reported with correspondingly limited claims. No parameter is changed after seeing the output, and no unattractive result triggers a redesigned experiment.
++For Project Montecito Version 1, we adopt a bounded study that can be run once in a small cloud environment and reported with correspondingly limited claims. No parameter is changed after seeing the output, and no unattractive result triggers a redesigned experiment.
+ 
+ ## 4.2 Fixed design
+ 
+@@ -267,29 +267,9 @@
+ 
+ which removes all one-point and two-distinct-point collision terms. This is a higher-order-capable finite functional, not a connected four-point cumulant.
+ 
+----
+-
+-# 5. Controls
+-
+-## 5.1 Lattice normalization
+-
+-For the integer lattice, every nonzero integer difference is a zero of the normalized sinc function. Hence
+-
+-\[
+-K=I
+-\]
+-
+-and the computation gives exactly
+-
+-\[
+-\mu_2=\mu_3=\mu_4=1,
+-\qquad
+-\mu_4^{(>2)}=0.
+-\]
+-
+-## 5.2 Homometric positive control
++## 4.4 Exact demonstration that the fourth moment adds information
+ 
+-Consider
++Before comparing zeta with random-matrix controls, we test whether the chosen fourth moment can in fact see arrangement information absent from an unordered pair-distance multiset. Consider
+ 
+ \[
+ A=\tfrac12\{0,1,2,6,8,11\},
+@@ -297,7 +277,7 @@
+ B=\tfrac12\{0,1,6,7,9,11\}.
+ \]
+ 
+-The two configurations have the same unordered pair-distance multiset. Their normalized sinc moments are
++These two homometric configurations have the same unordered pair-distance multiset. Their normalized sinc moments are
+ 
+ | moment | \(A\) | \(B\) |
+ |---|---:|---:|
+@@ -314,9 +294,29 @@
+ 0.0983097048.
+ \]
+ 
+-This is the cleanest conceptual result of the bounded study: a fourth spectral moment can distinguish configurations not distinguished by the unordered pair-distance multiset, even when the first three moments agree.
++This exact finite example is the conceptual control on which Experiment 3 rests: the fourth sinc-kernel moment can distinguish two configurations that every additive functional of their unordered pair-distance multiset treats identically, even though their first three spectral moments agree.
++
++---
++
++# 5. Controls
++
++## 5.1 Lattice normalization
++
++For the integer lattice, every nonzero integer difference is a zero of the normalized sinc function. Hence
++
++\[
++K=I
++\]
++
++and the computation gives exactly
++
++\[
++\mu_2=\mu_3=\mu_4=1,
++\qquad
++\mu_4^{(>2)}=0.
++\]
+ 
+-## 5.3 CUE and Poisson dynamic range
++## 5.2 CUE and Poisson dynamic range
+ 
+ The identically windowed controls give
+ 
+@@ -340,9 +340,24 @@
+ | near \(10^{21}\) | 1.33136 ± 0.02919 | 1.99089 ± 0.10169 | 3.21907 ± 0.27180 | 0.11634 ± 0.07782 |
+ | finite CUE | 1.32631 ± 0.02220 | 1.97725 ± 0.07615 | 3.19307 ± 0.20339 | 0.12261 ± 0.06832 |
+ 
+-The first zeta zeros are displaced below CUE at every displayed moment. In contrast, the two high-height samples lie near the finite CUE means.
++The \(\pm\) SD entries in the table describe variation across individual windows. They are not the uncertainty scale of a 16-window dataset mean. We therefore report two descriptive scales below:
++
++1. **individual-window scale:** the zeta--CUE mean difference divided by the standard deviation across individual CUE windows;
++2. **16-window-mean scale:** the same difference divided by the standard deviation of 20,000 bootstrap means, each formed from 16 CUE windows.
++
++The second scale is the more relevant calibration for comparing dataset means, but it remains exploratory: the 16 deterministic zeta windows are not asserted to be fully independent, and the bootstrap values are not confirmatory \(p\)-values.
++
++For the first 10,000 zeros, the differences in \(\mu_2\), raw \(\mu_4\), and \(\mu_4^{(>2)}\) are
++
++\[
++-0.02984,\qquad -0.28492,\qquad -0.07977.
++\]
++
++They correspond to \(-1.34\), \(-1.40\), and \(-1.17\) individual-window standard deviations, but to \(-5.39\), \(-5.62\), and \(-4.72\) bootstrap standard deviations of a 16-window CUE mean. In all three cases the two-sided descriptive tail reached the finite resolution \(1/(20{,}000+1)\). The low-height displacement is therefore clear under the bounded study's descriptive mean calibration.
++
++The sample near zero number \(10^{12}\) lies above the CUE mean for all four displayed moments. For \(\mu_2\), \(\mu_3\), raw \(\mu_4\), and \(\mu_4^{(>2)}\), the differences are \(1.94\), \(1.82\), \(1.77\), and \(1.07\) bootstrap standard deviations of a 16-window CUE mean; the corresponding descriptive tails are approximately \(0.053\), \(0.067\), \(0.079\), and \(0.286\). This is a consistently signed, marginal intermediate-height displacement, not a resolved discovery. The bounded design is not powered to determine whether it persists.
+ 
+-For the sample near \(10^{21}\), the differences from CUE are
++For the sample near zero number \(10^{21}\), the differences from CUE are
+ 
+ \[
+ \Delta\mu_2=+0.00506,
+@@ -352,11 +367,11 @@
+ \Delta\mu_4^{(>2)}=-0.00627.
+ \]
+ 
+-These are only 0.23, 0.13, and -0.09 CUE window standard deviations, respectively.
++These are \(0.23\), \(0.13\), and \(-0.09\) individual-window standard deviations and \(0.92\), \(0.51\), and \(-0.37\) bootstrap standard deviations of a 16-window mean. The corresponding descriptive tails are approximately \(0.36\), \(0.61\), and \(0.71\). Within the resolution of this study, the \(10^{21}\) sample is fully consistent with the identically windowed finite CUE ensemble.
+ 
+-The bounded study therefore extends the finite-height narrative of Experiment 1 into the sinc-moment hierarchy:
++The bounded result therefore refines, rather than merely repeats, the finite-height narrative of Experiment 1:
+ 
+-> The low-height zero configuration remains detectably different from finite CUE, while the high-height configurations are broadly CUE-consistent under the same finite geometry.
++> The first zeros remain distinctly displaced from finite CUE; the \(10^{12}\) sample is marginally high across the moment hierarchy; and the \(10^{21}\) sample is CUE-consistent under the same finite geometry.
+ 
+ ## 6.2 How much of the fourth-moment difference is lower-order?
+ 
+@@ -398,7 +413,7 @@
+ 
+ Second, the control hierarchy shows that the statistic behaves coherently across maximal regularity, random-matrix repulsion, and independence.
+ 
+-Third, the zeta calculation shows that the low-to-high-height transition is visible not only in the pair-correlation statistic of Experiment 1, but also in the raw and collision-reduced sinc moments.
++Third, the zeta calculation shows that the finite-height evolution is visible not only in the pair-correlation statistic of Experiment 1, but also in the raw and collision-reduced sinc moments: the first zeros are displaced, the \(10^{12}\) sample is marginally high, and the \(10^{21}\) sample is CUE-consistent.
+ 
+ Fourth, the decomposition shows why a raw fourth moment must not be overinterpreted: lower-order terms still account for most of the finite difference in two of the three zeta regimes.
+ 
+@@ -406,7 +421,7 @@
+ 
+ The bounded design does not include a control process matched to the complete measured pair features of each target. Therefore it cannot establish that the residual \(\mu_4^{(>2)}\) behavior is unexplained by the full two-point law.
+ 
+-It also lacks the full halo-convergence study, the original 256/512 CUE calibration and inference ensembles, formal power calibration, false-positive testing, and the reserved \(10^{22}\) confirmation block.
++It also lacks a complete boundary-convergence study, larger control ensembles, formal power and false-positive calibration, and an independent holdout confirmation.
+ 
+ Accordingly, we do not write:
+ 
+@@ -444,11 +459,11 @@
+ 
+ Project Montecito does not advance the proof of the Riemann Hypothesis. It does, however, provide a reproducible computational account of three related questions.
+ 
+-The first 10,000 zeta zeros display a substantial finite-height deformation of the asymptotic GUE pair-correlation curve, while two high-height samples lie within the resolution of the finite random-matrix calibration.
++The first 10,000 zeta zeros display a substantial finite-height deformation of the asymptotic GUE pair-correlation curve. In the spectral-moment study, the \(10^{12}\) sample remains marginally above finite CUE, while the \(10^{21}\) sample is fully consistent with the finite random-matrix calibration at the present resolution.
+ 
+ A first Gaussian Hermitian instrument is numerically sound but scientifically limited: its trace is data-free, its Frobenius moment and generic positive-inertia bound are two-point-determined, and its full inertia profile does not isolate a higher-order residual.
+ 
+-A normalized sinc-kernel fourth moment is demonstrably capable of seeing more than an unordered pair-distance multiset. Applied in a bounded finite geometry, it distinguishes lattice, CUE, and Poisson controls and shows the low-height zeta configuration moving toward the finite CUE moment profile at high height. Yet the collision decomposition also shows that much of the raw fourth-moment displacement remains lower-order.
++A normalized sinc-kernel fourth moment is demonstrably capable of seeing more than an unordered pair-distance multiset. Applied in a bounded finite geometry, it distinguishes lattice, CUE, and Poisson controls and traces the zeta samples from a clear low-height displacement, through a marginal intermediate-height offset, to CUE consistency near zero number \(10^{21}\). Yet the collision decomposition also shows that much of the raw fourth-moment displacement remains lower-order.
+ 
+ The final lesson is methodological:
+ 
+@@ -472,24 +487,25 @@
+ 
+ **Experiment 3** could be strengthened through larger control ensembles, additional boundary validation, more stringent lower-order matching, and independent replication.
+ 
+-These directions are not required for the conclusions of the present paper. More detailed designs have been preserved in the Project Montecito research archive and may be reconsidered as separate future work.
++These directions are not required for the conclusions of the present paper. More detailed designs have been preserved in the Project Montecito research archive and may be reconsidered as separate future work. In particular, a more extensive study of higher-order spectral attribution could form the subject of a separate future paper.
+ 
+ ---
+ 
+ # Appendix B. Reproducibility record
+ 
+-The bounded Experiment 3 package contains:
++The corrected bounded Experiment 3 package contains:
+ 
+ - the pre-result protocol and its SHA-256;
+ - the three frozen zeta input files and checksums;
+-- the self-contained Python execution script;
++- the self-contained execution and aggregation scripts;
+ - copied sinc-kernel, moment, collision, CUE, Poisson, and input-loading modules;
+-- all 176 zeta/control endpoint rows;
+-- group summaries and descriptive comparisons;
++- all 176 zeta/control endpoint rows and regenerable derived tables;
++- both uncertainty-scale records;
+ - lattice and homometric control records;
+-- figures, logs, manifest, and checksum file.
++- the shipped unit tests and independent brute-force collision validator;
++- figures, execution logs, manifest, and checksum file.
+ 
+-The cloud run completed in approximately 65 seconds with a peak resident memory of approximately 0.164 GiB. No D3 data were accessed.
++The corrected deterministic cloud rerun completed in approximately 37 seconds with a peak resident memory of approximately 0.164 GiB. Its common scientific outputs matched the original release exactly. No D3 data were accessed.
+ 
+ ---
+ 

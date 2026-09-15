@@ -1,0 +1,1350 @@
+{
+  "release": "v1.0.1",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 173,
+      "sha256": "bef554481d56577af20f40840693d52615fe93d3616300e7b7190f0d25ae8487"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size_bytes": 522,
+      "sha256": "7822a9612d2c2c83d39b7777691b1e2cbbd7c61ce0ff87c4726327d44a692b53"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 105,
+      "sha256": "38b8d30b10213a2e1c4d0327a9cb3a0d74383bd8ac55dff26e4ac6a164a4b3a7"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 587,
+      "sha256": "fc7cf12d7dfcaf9a341d8a00bd60d82dbaddb7513f93afb68f223bf4602dd2e2"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1077,
+      "sha256": "0c5972488d40cc17bccda6ed391cb27fef389025e691f2d710016c634d648003"
+    },
+    {
+      "path": "Makefile",
+      "size_bytes": 749,
+      "sha256": "0d8c8a321701facddf9dba9b2c4cc638b6a0641a71cc4731ea1c8c3c6b1a0dbf"
+    },
+    {
+      "path": "NOTICE.md",
+      "size_bytes": 1012,
+      "sha256": "b767656b8f028eb5235719f5737430dad8bef5f012f96a31380ca47b92f362c3"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3529,
+      "sha256": "86f446572f3774231778fac754e8902efc203267e5c46d7dbb41517642563a10"
+    },
+    {
+      "path": "VERSION",
+      "size_bytes": 6,
+      "sha256": "44e161e4495cac2cf7858043e9e6418e9579f0ddcfae826f9a372622968ce066"
+    },
+    {
+      "path": "data/README.md",
+      "size_bytes": 580,
+      "sha256": "fcace1a6b8fd7cfc36a9b0af489e4c8c3964348899b1a8807925f502662cffdc"
+    },
+    {
+      "path": "data/download_odlyzko_tables.py",
+      "size_bytes": 1956,
+      "sha256": "4aa2a02155137157b3620c7f4ec22cb05d5bff1b7197c8e337a14ac2acdd1296"
+    },
+    {
+      "path": "data/odlyzko_tables.json",
+      "size_bytes": 831,
+      "sha256": "72d15811d86c27223adf780df4d811ff03cbb47f0ebfae8d8f7fdece6f9436a3"
+    },
+    {
+      "path": "data/raw/.gitkeep",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "docs/GITHUB_PUBLISHING.md",
+      "size_bytes": 1621,
+      "sha256": "4fb1cf9ab0f15ab74200416fdf36b9dd8a771bf86cfd5266c3db585cb5244770"
+    },
+    {
+      "path": "docs/PAPER_TO_CODE.md",
+      "size_bytes": 1775,
+      "sha256": "9bffc42bc7d3646ad24f6659a7c182227529e3e0aca9a2f6ed3a5c1b428ac93a"
+    },
+    {
+      "path": "docs/PROJECT_STATUS.md",
+      "size_bytes": 440,
+      "sha256": "9d4e8b35e581545cce63eb6e5ca8d1ad6076f05882841f97ee7519cc48a42572"
+    },
+    {
+      "path": "docs/RELEASE_NOTES_v1.0.0_ARCHIVED.md",
+      "size_bytes": 1592,
+      "sha256": "e2fede42a5735dbd727c55bb2171fcd5d5753748e83c6497baa65e541a2c25e5"
+    },
+    {
+      "path": "docs/RELEASE_NOTES_v1.0.1.md",
+      "size_bytes": 1061,
+      "sha256": "26f336fb446b6a578936621f4a8782c3c49406f5bcd6d4c6da9b0433041efe6e"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "size_bytes": 1345,
+      "sha256": "1a506632aeaed536c8ad60bb260bc4807b499b23451d113567e5abe4ceec2faf"
+    },
+    {
+      "path": "docs/governance/Project_Montecito_Project_Specifications_v0.7.md",
+      "size_bytes": 61302,
+      "sha256": "ab861368b84f61ecb50d8b7ac54480afbd74bb73f3e982303cce4b066ec9649a"
+    },
+    {
+      "path": "docs/peer_review/Experiment3BS_Independent_Peer_Review.md",
+      "size_bytes": 9276,
+      "sha256": "62a67b0b2c7274bc5f33f78dad235ba4e96ad790dced8036bfb7247716dce758"
+    },
+    {
+      "path": "environment.yml",
+      "size_bytes": 200,
+      "sha256": "a63c2a8a3a192ba6baa4a0a1c2224ecbb3d1cee36355e8e26b1e921173ed0598"
+    },
+    {
+      "path": "experiments/experiment1/README.md",
+      "size_bytes": 981,
+      "sha256": "d483cbc7cbf36bc45f4e41ef5daf6534c6d2ef90a6b9d013866fd969f88b2723"
+    },
+    {
+      "path": "experiments/experiment1/code/reproduce_experiment1.py",
+      "size_bytes": 5327,
+      "sha256": "26bf9a10f76679db43f217b5e206f56b2d6b5a660382828dd08b58763835af3b"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/00_closure/Experiment1_Closure_Manifest_v2.csv",
+      "size_bytes": 1539,
+      "sha256": "ceec21916e1eceb076d482feba379af8ee2bcbf26396d187249344d702ba682e"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/00_closure/Experiment1_Closure_Report_v2.md",
+      "size_bytes": 3334,
+      "sha256": "d2bbb8f1ddbe34b56049a7227d717a1e33beff7d3539312e79e5f5d8029eb812"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/00_closure/Experiment1_to_Experiment2_Handoff_v2.md",
+      "size_bytes": 2743,
+      "sha256": "b8e8fe9489efb324092f8940a63dabad2cbf433f914e706aed7abd7f69b5ad59"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/01_specification/Project_Montecito_Project_Specifications_v0.4.md",
+      "size_bytes": 40657,
+      "sha256": "5ba175996068e609cf8932ec7476bb3c62cde235f4f3ae04431cde2d32596dff"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/completeness_diagnostic_v2.csv",
+      "size_bytes": 609562,
+      "sha256": "23e1a73df11e6b06254402b4f0bf34812fec7e0cd574b5091f538c9ccefb3710"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/experiment1_analysis_v1_frozen.py",
+      "size_bytes": 1513,
+      "sha256": "fd5f7d415c9f81dfabd3955333e4ed16c19a74d2598b93d11b413e79660f19e0"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/experiment1_config_v1_frozen.json",
+      "size_bytes": 1206,
+      "sha256": "328c0da3217f7068db5bb5706d78a0e5091332acde483706851136dfdf235886"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/experiment1_v2_addendum.json",
+      "size_bytes": 709,
+      "sha256": "5c7820496e4cacf391e08f2f97b0c38ce1ee3c141716df44eaea04471162c183"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/height_quartile_diagnostics_v2.csv",
+      "size_bytes": 517,
+      "sha256": "48f836623fb889248ebe1fef7e95794ccd024ea23ab252e7a8d4fcaf33235b5d"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/metrics_v2.json",
+      "size_bytes": 1441,
+      "sha256": "bec62c4d0e42c317417911c3d3bf2adb876970f7f6005a2a18fb2d33844a25d4"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/pair_correlation_short_range_v2.png",
+      "size_bytes": 103610,
+      "sha256": "c0c54bde1eda875a82d8f29cb31b8101fb646f1abdb9b73dfa7ea34a41b5aabc"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/pair_correlation_u_0_30.png",
+      "size_bytes": 136007,
+      "sha256": "f40f1506ddde6d89780d3535cb35bdb6d41dfacac7e9143eae4a68fe6d571364"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/pair_correlation_u_0_5.png",
+      "size_bytes": 136527,
+      "sha256": "ac894691a95fc2819e7333d422dd219d96d129e54eec1c26d79b057edf5d42e9"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/poisson_unit_test.png",
+      "size_bytes": 164757,
+      "sha256": "fa1d17c48e617062d245670a4edb640f413403646796bfb64f33ef3f4207b70b"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/robustness_summary.csv",
+      "size_bytes": 721,
+      "sha256": "bd8809fe15d0985d7d2a7fc66020d40cf536ff4833c893230b231eedba702af4"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/short_range_diagnostics_v2.csv",
+      "size_bytes": 1207,
+      "sha256": "3488440368bbd90a6b7d32c4a08c6ec1cab1e664f2aec3d3202bdacd7cc7a410"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/sum_rule_v2.csv",
+      "size_bytes": 192,
+      "sha256": "6e5f86f829592f304e4e6139c80835fb2084930b29f94b2735ebf370644d5de9"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/sum_rule_v2.png",
+      "size_bytes": 105654,
+      "sha256": "d86eb16a177664dfc3ba6a9d0c34a5ecb8ab6b6964ad066f21d21a9494586f22"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/validation_spot_checks.csv",
+      "size_bytes": 797,
+      "sha256": "0d3ce997fa9d835f6b9506512aecc2cbb6286f24c518e85d5bd3e85f8afc41c5"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/zeta_pair_correlation.csv",
+      "size_bytes": 38980,
+      "sha256": "a12a37dc693e8615fdd904c8cce42cad053dabbcdb1f7118f3c4cf7bc43a06aa"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/zeta_pair_correlation_diagnostics_v2.csv",
+      "size_bytes": 66761,
+      "sha256": "c6b862de4d45d6ca5f020675baea5efa830feeb224320dfba52c4522c0c9f97a"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/zeta_unfolded_points.csv",
+      "size_bytes": 597151,
+      "sha256": "de949c189fd6f0850028c65dc3a8d9830e579f54c50ebbf564c563b09e7c1c7a"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/zeta_zeros_10000_validated.csv",
+      "size_bytes": 226925,
+      "sha256": "1936bc6b0bce8c12804e49d7bd50eed7fff4019a2b7f3f878a2ff565b1c5f094"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/03_validation/Experiment1_Validation_Extension_Peer_Review_Response_v2.md",
+      "size_bytes": 2618,
+      "sha256": "24ed94c76f60b63f674272806d759afe393f7ef04b4cc901b4886848f77f25e7"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/03_validation/Experiment1_Validation_Extension_Report_v3.md",
+      "size_bytes": 10822,
+      "sha256": "05c61e2dae1db1f39f661e5e0fada551c761b82e9ddc2bdaca2abcf627125807"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/03_validation/exact_unfolding_pair_correlation.csv",
+      "size_bytes": 29880,
+      "sha256": "61e4efde18ee0a6ac64855c56cb4930b9c04778444ccca26e3eb4b207d6fbb24"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/03_validation/exact_unfolding_sensitivity.csv",
+      "size_bytes": 812429,
+      "sha256": "ddb17ae441785e442138ee5bb735eee899b2257ba757eded0fc155c89ea8b6d4"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/03_validation/gue_matched_monte_carlo_200.csv",
+      "size_bytes": 19331,
+      "sha256": "4d9c2d5c821c6aff7dc471c5537b83c6e7209bb7f4e6cdc2c2dbcc02ac5e7884"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/03_validation/gue_matched_monte_carlo_summary.csv",
+      "size_bytes": 762,
+      "sha256": "3dd3ac71aa7e2fc15561204381978bef445d88f1cc98f32dc6acae686fe17cf2"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/03_validation/odlyzko_official_anchor_comparison.csv",
+      "size_bytes": 1000,
+      "sha256": "7239fc82274b0d63dca9656a273930fba0590557154b50d4f846ec780b03d03e"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/03_validation/validation_extension_config.json",
+      "size_bytes": 454,
+      "sha256": "f81ae8aa409d60b379e2b3003f1c9c6e7973f454792a565859bdeab687a4803d"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/03_validation/validation_extension_metrics.json",
+      "size_bytes": 1428,
+      "sha256": "2f32dc0d1701b3a0262bf45847e56b19c3dd7d3e26488f59ee6221f5121949e8"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/D05_by_height_with_GUE_band.png",
+      "size_bytes": 93850,
+      "sha256": "9c46bb74f7fe7f95475e1b7bef8877234381016c86eb8e35ddbaa1c069e4c4e5"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/D05_detection_floor_v2.csv",
+      "size_bytes": 471,
+      "sha256": "8e4283c3ac9b7e2e72e0a0fa4793e410de7b8bc51652dbc721927ddb85bfa7ed"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/D05_detection_floor_v2.png",
+      "size_bytes": 50417,
+      "sha256": "0d47c9629a3df272fedb0b37eee1f2e627db54f05b7cca80907514a997d88f06"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/Experiment1_High_Height_Replication_Peer_Review_Response_v2.md",
+      "size_bytes": 2103,
+      "sha256": "95ed56246dcbb2a696ddb00e5707ce73fece5e87e1c9aad38a46ce517c714c8e"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/Experiment1_High_Height_Replication_Report_v2.md",
+      "size_bytes": 9581,
+      "sha256": "9882544e9090c6c4ef650df535b904b1c317f80643745d7ca67f9969e1ca692c"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/block_sign_consistency_v2.csv",
+      "size_bytes": 513,
+      "sha256": "2ff2bb9e7cb805a7bb8926d22a1f0a8a5cdabf54fa69c4a9d5fe2fc7f85f551c"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/gue_calibration_by_height.csv",
+      "size_bytes": 838,
+      "sha256": "669476b6d8ad90d905cdb28c667891019d2cefbf6419aaf4c7e16ec2c1fbad4f"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/high_height_replication_config.json",
+      "size_bytes": 1197,
+      "sha256": "6b2ae0abf405bc8b6be34274f6398e7c8071ae3ae941004a366324e38c8e6077"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/high_height_replication_method.py",
+      "size_bytes": 665,
+      "sha256": "80d85bfaf466bdc8c514e51538a0eb9faae5fdd1af479695faaf9f3902df462e"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/high_height_replication_summary.csv",
+      "size_bytes": 1421,
+      "sha256": "ec41ac3343ad055e902070c4dcf3996629aa506b23f8bebcfe5a5527d8e1adc2"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/low_height_affine_tail_check_v2.csv",
+      "size_bytes": 763,
+      "sha256": "eaae48d808ce4a396ec63ad3d1fb6328f96645bf964f27bea17aab07db894f73"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/low_height_affine_tail_check_v2.png",
+      "size_bytes": 61464,
+      "sha256": "77d7a333d2f24181bff89e9de15a3353b9dcbb87dfda09da563afcebd29e5dc1"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/near_1e12_pair_correlation.csv",
+      "size_bytes": 22273,
+      "sha256": "b203faaa0426cc262bf88401495518633026464fb0f7196e3338e8c37799ee7e"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/near_1e12_unfolded_points.csv",
+      "size_bytes": 626145,
+      "sha256": "ed762a6863eb3c2a0f3b9d5a91d1bce6a99d976b3c10112b73a1f1e3e31a0360"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/near_1e21_pair_correlation.csv",
+      "size_bytes": 22270,
+      "sha256": "85797f352d44c73a6c849e3aac126fde79c93a757e23795c0454c86a5e1662ba"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/near_1e21_unfolded_points.csv",
+      "size_bytes": 677215,
+      "sha256": "fae0106ab0486c84b361f9772a643653944e1b2e9a8720540240a1bb65952140"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/pair_correlation_short_range_by_height.png",
+      "size_bytes": 131012,
+      "sha256": "69383ad52ccec93d23d1056f8eb27c2e68c8a1a7783171877febb495d748736a"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/05_authoritative_documentation/Experiment1_Peer_Review_Response_v4.md",
+      "size_bytes": 5276,
+      "sha256": "b4f5a46230ee7c37a9e06512ca6611d1323576bd8c5b041ac32fde25d5ba6231"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/05_authoritative_documentation/Experiment1_Report_v4.md",
+      "size_bytes": 16173,
+      "sha256": "af1bf0bf77d4bfe2a906512a3953e0181fc934bd01ed6514b47bde49317910ee"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/05_authoritative_documentation/Experiment1_to_Experiment2_Migration_Manifest_v4.md",
+      "size_bytes": 5690,
+      "sha256": "d80def813fa688be65944452798dbfbba76f24ca41f1206a729f9d52c299fa46"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/05_authoritative_documentation/README.md",
+      "size_bytes": 482,
+      "sha256": "c8fef18ef4962b398bc81303074aa111568c2d96df4d06aadfbe73ae40401864"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/06_peer_reviews/02-experiment1-review.md",
+      "size_bytes": 12707,
+      "sha256": "585e16bb7dcf0d81c9571e599ccd4dc9a8be6370249683a0da105a880fe4f31e"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/06_peer_reviews/03-experiment1-validation-extension-review.md",
+      "size_bytes": 10927,
+      "sha256": "3778b99ebac58ebfb88a6f731cf0595906a5ffe5382ce5218a6b0508e071d5d2"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/06_peer_reviews/04-high-height-replication-review.md",
+      "size_bytes": 9344,
+      "sha256": "90808b7c5d90daa742b2435965bdbb68a17469a02f2d8ec9ea4fa9f1088105b5"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/07_reproducibility/Freeze_Artifact_Manifest_v2.csv",
+      "size_bytes": 8790,
+      "sha256": "addd79d991c84806752b7d2ef2bbd936402b5c94463b5d82b2d5a77e7d737b18"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/07_reproducibility/SHA256SUMS_Freeze_v2.json",
+      "size_bytes": 8936,
+      "sha256": "8dc569b23ca1eb1d14fe03b312ad6af741c6830cac7dcfa43ce5f5c8cf8feb9a"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/08_provenance/archive_v1/zeros1_provenance_closure_v1.md",
+      "size_bytes": 2252,
+      "sha256": "90a955bd1ee9ff5f7b45a82b38bf98eb6153f395e9e3004047f5c1812fb68b6d"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/08_provenance/archive_v1/zeros1_provenance_status_v1.json",
+      "size_bytes": 811,
+      "sha256": "17c952d94b3a0692d2d34d336c13f737e19f5d6b9f022212f7474c779b4ffd53"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/08_provenance/first10000_local_rounded_to_odlyzko_9dp.txt",
+      "size_bytes": 149322,
+      "sha256": "d52ca598a98eb3c9810656703bf797fee4264c0446ff1739afcdb0e493c321fb"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/08_provenance/odlyzko_official_anchor_comparison.csv",
+      "size_bytes": 1000,
+      "sha256": "7239fc82274b0d63dca9656a273930fba0590557154b50d4f846ec780b03d03e"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/08_provenance/zeros1_SHA256.txt",
+      "size_bytes": 77,
+      "sha256": "8c9fe1047b9c31184f5657de0c267aa5c607521679c8c6a168144e3fa7b22ea7"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/08_provenance/zeros1_first10000_full_comparison_v2.csv",
+      "size_bytes": 1027265,
+      "sha256": "e1ca29cecdadd2dceda61e25703c5ccfb76d1401dd579a885f092ffac36662e5"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/08_provenance/zeros1_official_vs_frozen_pair_counts_v2.csv",
+      "size_bytes": 5931,
+      "sha256": "7502d0a06befd798157d71b0c784cd086a6aa89e4896b2c50ebe14d5ba282d64"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/08_provenance/zeros1_provenance_closed_v2.md",
+      "size_bytes": 2459,
+      "sha256": "ef703b7f4f458540e2b8cb5aaafb94b37fdd8da2c4a77372268c4f2bd7209bf3"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/08_provenance/zeros1_raw_byte_validation_v2.json",
+      "size_bytes": 1268,
+      "sha256": "8e6d52466fb903134b5ccd9df52a4d015e4b2a266150e69d6f2f49765b5d5cb0"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/README.md",
+      "size_bytes": 1252,
+      "sha256": "bff4a0232ac290a7199631ace87984164f8f38c379a4b7e13634de3436d390e2"
+    },
+    {
+      "path": "experiments/experiment1/tests/test_experiment1.py",
+      "size_bytes": 786,
+      "sha256": "c9d8b5e574de291ab2c24943bd5df54067f85b08f51e9c853145ee2d9b290a66"
+    },
+    {
+      "path": "experiments/experiment2/README.md",
+      "size_bytes": 929,
+      "sha256": "f295723479f0259ecea3b0dcd57ea148dd45814d2722eb47f7293533a4e002c5"
+    },
+    {
+      "path": "experiments/experiment2/final_record/Experiment2_Closure_Report_v1.md",
+      "size_bytes": 28583,
+      "sha256": "5258b559d585f5121d8867edfec61e83a879fd26fa77b5de78687c280ab0db2e"
+    },
+    {
+      "path": "experiments/experiment2/final_record/Experiment2_Peer_Review_Response_v1.md",
+      "size_bytes": 51545,
+      "sha256": "34d5e0ce436d607cfb4464f86986d0c4d6e8e89400d400aa2e6df2f58839bd4b"
+    },
+    {
+      "path": "experiments/experiment2/final_record/Experiment2_README_v2.md",
+      "size_bytes": 10219,
+      "sha256": "5ed7305b4a4821cb3646a99471ac420181ef6c185e877de8445e4b59096eac27"
+    },
+    {
+      "path": "experiments/experiment2/final_record/Experiment2_Report_v2.md",
+      "size_bytes": 48827,
+      "sha256": "38782299c171f0e2b7abe3dfc2c7455ff62cbaaa95bf39b4693a014b0cfd2c94"
+    },
+    {
+      "path": "experiments/experiment2/final_record/Experiment2_to_Experiment3_Migration_Manifest_v1.md",
+      "size_bytes": 36319,
+      "sha256": "bbc9fd437dd81b9c37c11e9d7589fd6ee74425bce488374f845e23593a6f66c8"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/00_preregistration/Experiment1_to_Experiment2_Handoff_v2.md",
+      "size_bytes": 2743,
+      "sha256": "b8e8fe9489efb324092f8940a63dabad2cbf433f914e706aed7abd7f69b5ad59"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/00_preregistration/Experiment1_to_Experiment2_Migration_Manifest_v4.md",
+      "size_bytes": 5690,
+      "sha256": "d80def813fa688be65944452798dbfbba76f24ca41f1206a729f9d52c299fa46"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/00_preregistration/Project_Montecito_Project_Specifications_v0.6.md",
+      "size_bytes": 52504,
+      "sha256": "70ade4842e9eabbdaf352876266247b14cb7569fa7c57216905969a08ed15a2a"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/00_preregistration/block_manifest_v1.csv",
+      "size_bytes": 754,
+      "sha256": "5dd855d2e71f5b935d03e34dcf6e379a6b0bdcb6d2dcc43c82e679a3cae299dc"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/00_preregistration/experiment2_config_v1_frozen.json",
+      "size_bytes": 6560,
+      "sha256": "25de26d1bd3c8fc1bf1f1c96bfcc5ef940e97829e42e8f7bfcece89ec4d650e3"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/01_inputs/low_height_zeta_pair_correlation.csv",
+      "size_bytes": 38980,
+      "sha256": "a12a37dc693e8615fdd904c8cce42cad053dabbcdb1f7118f3c4cf7bc43a06aa"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/01_inputs/low_height_zeta_unfolded_points.csv",
+      "size_bytes": 597151,
+      "sha256": "de949c189fd6f0850028c65dc3a8d9830e579f54c50ebbf564c563b09e7c1c7a"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/01_inputs/near_1e12_pair_correlation.csv",
+      "size_bytes": 22273,
+      "sha256": "b203faaa0426cc262bf88401495518633026464fb0f7196e3338e8c37799ee7e"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/01_inputs/near_1e12_unfolded_points.csv",
+      "size_bytes": 626145,
+      "sha256": "ed762a6863eb3c2a0f3b9d5a91d1bce6a99d976b3c10112b73a1f1e3e31a0360"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/01_inputs/near_1e21_pair_correlation.csv",
+      "size_bytes": 22270,
+      "sha256": "85797f352d44c73a6c849e3aac126fde79c93a757e23795c0454c86a5e1662ba"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/01_inputs/near_1e21_unfolded_points.csv",
+      "size_bytes": 677215,
+      "sha256": "fae0106ab0486c84b361f9772a643653944e1b2e9a8720540240a1bb65952140"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/02_results/C_spectra_and_crossings.csv",
+      "size_bytes": 2686073,
+      "sha256": "ce107926de7f739726aa0622d15a9bb768ba0b40d61240b913cf2f730c7344cd"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/02_results/analytic_gaussian_tail_budget.csv",
+      "size_bytes": 217,
+      "sha256": "93fa08c97d462ad4ca9d0278de2339662936e14e4324a3bd10badb157c607f2b"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/02_results/block_matrix_metrics.csv",
+      "size_bytes": 54784,
+      "sha256": "bcdff93e92af815fc6e11500e24ffba0eec740fbe14480ba3ee34796c13a33e2"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/02_results/block_metric_summary.csv",
+      "size_bytes": 2799,
+      "sha256": "33c4dd4c095a7001f59ac139b917d0b1bdc232f7cdfbb6a9d99fc46f7a07a097"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/02_results/direct_H_eigendecomposition_checks.csv",
+      "size_bytes": 8962,
+      "sha256": "fd46f4c2e627f5c37c0b887f409cc9348dd4c793573f1c490a1b759606203c65"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/02_results/experiment2_summary.json",
+      "size_bytes": 4516,
+      "sha256": "6c92a500d49cc4e62af308ec44042b2282c19cf9f599c33a6835259bb81bbf93"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/02_results/full_dataset_pair_bridge_checks.csv",
+      "size_bytes": 764,
+      "sha256": "9b6def36b8e557c504602aad3d33522d4084451201faa885a9a7f079cf91c761"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/02_results/inertia_profile_summary_by_location.csv",
+      "size_bytes": 29804,
+      "sha256": "663e1e7c8116230c86efa9b78a4291c86ff3452af8097ae15a246836fd5f34b2"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/02_results/inertia_profiles_all_blocks.csv",
+      "size_bytes": 691768,
+      "sha256": "00d61e939f589f61e30a6bb2491d0c2a05437ac871de0f7196e0653e5832d64b"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/02_results/nested_scale_sensitivity_by_location.csv",
+      "size_bytes": 39968,
+      "sha256": "b55d110b03b61a52deb71b57b7d28cb69ab34fd77113a2c53e45fbe85bc0512f"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/02_results/nested_scale_sensitivity_summary.csv",
+      "size_bytes": 4580,
+      "sha256": "42f50cb0b75bd99ca7d78eead143d86696d3ff75f75a04f6a4a7e9beeca5d184"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/02_results/numerical_integrity_summary.json",
+      "size_bytes": 852,
+      "sha256": "ff2357e5ec5e9e7e2fac19bbbee0dbb07786c68029469be7c1e5a7c2222846e5"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/02_results/numerically_unresolved_cases.csv",
+      "size_bytes": 300,
+      "sha256": "5980ee683c1699a7d2828087dccb9760134086b1a92a6cef1a732ed3e5d519f2"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/02_results/theoretical_GUE_gaussian_benchmark.json",
+      "size_bytes": 146,
+      "sha256": "105a57cbbda6798be5621a5b2f1db19faf7c9648d38e568d65f80450fa9117b5"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/03_figures/01_primary_inertia_and_bound_m512.png",
+      "size_bytes": 103746,
+      "sha256": "9e915dae2b7ccbd078c13d784762eaf1a8c0d934bda684d211576e8d0373fd6b"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/03_figures/02_primary_positive_inertia_by_block_size.png",
+      "size_bytes": 88469,
+      "sha256": "2734b899977552cc6db6061a0e81f465ae41e30e8004787457e82fbeea2532a5"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/03_figures/03_primary_pair_correlation_frobenius_bridge.png",
+      "size_bytes": 64904,
+      "sha256": "20c0307d2733f0d589e5095fed4db0a7f8b9393350627d0ddc5ae78be9baf95f"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/03_figures/04_zeta_height_controls_Dc_m512.png",
+      "size_bytes": 52843,
+      "sha256": "22fb92616d3f14a00b58d4478829f8c932c4f6d4dc2497389bcbb99490ecef58"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/03_figures/05_zeta_height_controls_positive_inertia_m512.png",
+      "size_bytes": 97059,
+      "sha256": "2e554da61b6a59cc52e6f8f8ca6a30bf889ebd3b2804a9665e455c9b72ba40ab"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/03_figures/06_primary_positive_bound_slack_m512.png",
+      "size_bytes": 65172,
+      "sha256": "d3e99fc39728263d8d38f25d5d6c9a57a1d59850687a7ce8016990d24d2bdf39"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/03_figures/07_primary_location_variability.png",
+      "size_bytes": 118947,
+      "sha256": "c1ceb4ea7e079ee95cf54f2beea76f451ccfd808e034c76bb792ff510cb80925"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/03_figures/08_full_dataset_Dc_vs_GUE_benchmark.png",
+      "size_bytes": 99268,
+      "sha256": "63d4afaee5eff359bb2fad9fe01269a3fe3f0abfdd541f54966d00d5ed4bf77a"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/04_report/Experiment2_Execution_Log_v1.md",
+      "size_bytes": 2897,
+      "sha256": "8457474fca1adf9f7b16eda06bc6d1a2df9515f690feeda849368ed613b083fc"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/04_report/Experiment2_Report_v1.md",
+      "size_bytes": 20885,
+      "sha256": "2ee7974e02a545fc8d8d1f400ed89ff0798578a484db5723ab05ef677b6a3ced"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/05_reproducibility/Experiment2_Artifact_Manifest_v1.csv",
+      "size_bytes": 5257,
+      "sha256": "3c5252361c7901b9f1f74d22d8c06214c15f8a5263f38556ba178aa54b9e0c34"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/05_reproducibility/SHA256SUMS_Experiment2_v1.json",
+      "size_bytes": 5291,
+      "sha256": "8e95db656885a9f8ff568fc7282e230dfc232268bb7ad00f9eff8af2eb1e5872"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/05_reproducibility/environment.json",
+      "size_bytes": 182,
+      "sha256": "932b2286afc6bb6b377180b83709aed4028e86c1cc5b0d56d9ec9322a20d1268"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/05_reproducibility/verification_checks.csv",
+      "size_bytes": 1698,
+      "sha256": "7a49f5539a7293b962bada577012d0f6bfddb1da559de188dc01ff22863ba52b"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/05_reproducibility/verification_summary.json",
+      "size_bytes": 77,
+      "sha256": "702e1b7dee49d7354e105d7f532bffafa4522bcc816c7c47d9d06957aa3b0599"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/README.md",
+      "size_bytes": 3226,
+      "sha256": "87ee25212e0206a146128512053770b6f8fa0eb4860a5e20d1c12d06bb7919dd"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/src/build_report.py",
+      "size_bytes": 23229,
+      "sha256": "12dedb36bf42feb51d4f67883ed108458ffd2f71a4ccc9aa4e837ebb2ce8c07b"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/src/experiment2_run.py",
+      "size_bytes": 14279,
+      "sha256": "289b2d82b31f48053943ad01a2dba6c0d5f58ff53859dc9b97c7cb4b2b2356a3"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/src/make_figures.py",
+      "size_bytes": 4343,
+      "sha256": "07c500ed9ae3e052e36aac145e1bc85d39d23a700c9e0fdfd80ce92cb9558c23"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/src/verify_experiment2.py",
+      "size_bytes": 4436,
+      "sha256": "a43ff8865ecdca61b0b73b3db75fc0c7f350ac75ab7a1abd67d9540437547f09"
+    },
+    {
+      "path": "experiments/experiment2/peer_review/AR-01/Your_review_of_Experiment_2_review.md",
+      "size_bytes": 16131,
+      "sha256": "1c39a3fd6118d8bd54703c61b128c0195329e7890a67cea420f847c8f1afb9d5"
+    },
+    {
+      "path": "experiments/experiment2/peer_review/AR-02/Your_review_of_exploring_further_experiment2.md",
+      "size_bytes": 17329,
+      "sha256": "ad81d112f230a432b60f3f02c9651c97d78a7d3953117c15aaf5841eaaf38852"
+    },
+    {
+      "path": "experiments/experiment2/peer_review/AR-03/Your_final_analysis_of_experiment2_review.md",
+      "size_bytes": 11567,
+      "sha256": "cb99fbaea07812b9a9f74d9d2f5c44e99e11c46283ce6b905210642bc817515e"
+    },
+    {
+      "path": "experiments/experiment2/peer_review/AR-04/Your_review_of_Project_Montecito_Added_Project_Specifications.md",
+      "size_bytes": 18697,
+      "sha256": "ac944d3e09577fe89dbc0c2b4e5c8d99bb4f4765dad350cc95b13a1f5cf2de75"
+    },
+    {
+      "path": "experiments/experiment2/peer_review/PR-01/09-experiment2-review(2).md",
+      "size_bytes": 17834,
+      "sha256": "134a91c5b4f20b9fb950db21bb251b49496f984fcfa3f83e172be1a939c172a4"
+    },
+    {
+      "path": "experiments/experiment2/peer_review/PR-02/12-exploring_further_experiment2(1).md",
+      "size_bytes": 13740,
+      "sha256": "ac78dbb1390c629a5a90607fcbec896e948ca253d36b8cf3a8ac719625b47eec"
+    },
+    {
+      "path": "experiments/experiment2/peer_review/PR-03/Project_Montecito_Added_Project_Specifications_v0.1(2).md",
+      "size_bytes": 10262,
+      "sha256": "2bd4aa60c70320ae394f5f8050c9a6f06f4480922fd2e6502bc6d4d0304fb67e"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/01_results/analytic_kernel_benchmarks.csv",
+      "size_bytes": 148,
+      "sha256": "cb36147742f97fd3ebbb8f346276be2fab491d8110cba5260251cc4420ae3c27"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/01_results/independent_block_metrics_all_sigma.csv",
+      "size_bytes": 173372,
+      "sha256": "a7d82788847f8b4bcafbed060b65fea22bdb435e054adb29a2de5df54cc6cb4f"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/01_results/independent_full_dataset_pair_bridge_all_sigma.csv",
+      "size_bytes": 1670,
+      "sha256": "3d97d775d882e0dfbe7638e0b9a5049fb3c9a655949cf96b66b03ca210951e19"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/01_results/independent_inertia_all_sigma.csv",
+      "size_bytes": 1082910,
+      "sha256": "c2b32adf79dc8e9b1274e08678cdb5cf21ebbdf2b3dd5879fe6f277ece040953"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/01_results/independent_inertia_summary_all_sigma.csv",
+      "size_bytes": 26957,
+      "sha256": "a13146714ee17a631bed59f254cce30152f30daa520bad2ae90952e43765415d"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/01_results/independent_reproduction_differences.json",
+      "size_bytes": 926,
+      "sha256": "ddec67b390a507b8c655877dc207ba2e7b6d26855a07ae7aeb54516179e248a3"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/01_results/pooled_spectrum_distances_m512_sigma1.csv",
+      "size_bytes": 248,
+      "sha256": "2fb46e3ec99e0b2ea87ed1734951a07cecb572a0d181a30d070915b2d9f597e5"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/01_results/pooled_spectrum_quantiles_m512_sigma1.csv",
+      "size_bytes": 2013,
+      "sha256": "763354ca1ac26a5548de7914acfe1b2290943a6c0bed4cda3b55d16b96a05905"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/01_results/sigma_sensitivity_summary.csv",
+      "size_bytes": 6146,
+      "sha256": "64e9335b91e2be55080c0d958ab9ebb05146adfb6848f36488069e45f8cef216"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/01_results/spectral_diagnostics_sigma1.csv",
+      "size_bytes": 63413,
+      "sha256": "0dcc6b28ad26bd07f0dd8ad145030e524ba00e9dd57a38ee51c256954b9b28ea"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/01_results/spectral_summary_sigma1.csv",
+      "size_bytes": 1704,
+      "sha256": "12d6963f1b2ae996a7b80f4a9424c70e4638905be2565ef306aa2d2ce96d7866"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/02_figures/primary_Dc_locations_sigma_0p5.png",
+      "size_bytes": 55059,
+      "sha256": "0a958b0a2eb9cab0c0f031d5bd03a5bf2cd0ba60415912a3ff9cc0f7f1d5b0b4"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/02_figures/primary_Dc_locations_sigma_1.png",
+      "size_bytes": 59451,
+      "sha256": "e36483d67b90e8d8aed6f67b4f4275626b01b06ec8a3ba7055ac7854c4b8764d"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/02_figures/primary_Dc_locations_sigma_2.png",
+      "size_bytes": 53248,
+      "sha256": "72d6308902641cf12287d4eaeea518a18f161535738ce26afd17e3b8c562b542"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/02_figures/spectral_upper_edge_by_height.png",
+      "size_bytes": 93870,
+      "sha256": "5cf7acc393029c3a952be0b4767dda7cad12b25c6014be59efadd827e81a0d19"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/03_report/Experiment2_Peer_Review_Handoff_v1.md",
+      "size_bytes": 1721,
+      "sha256": "19802d3cd74d20c7928df405d3a90bf71bca68917974d2fda14743139ac61970"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/03_report/Experiment2_Validation_Extension_v1.md",
+      "size_bytes": 9149,
+      "sha256": "f4bd69d1a7dbb862ad17a642b95486043827b2186e6d7ea80af218dfbe0923e0"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/README.md",
+      "size_bytes": 559,
+      "sha256": "d9e295c60df669d50016ffaab1aa3a2c8a9703f0c804a48374b46f87d22ff4d7"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/SHA256SUMS.json",
+      "size_bytes": 3215,
+      "sha256": "65fb51ee94faad12d27f91ef8ac32f3bed4183cea54200de1bb672fe077f3490"
+    },
+    {
+      "path": "experiments/experiment2/validation_release/src/independent_validate.py",
+      "size_bytes": 10954,
+      "sha256": "d077fb776d37ffd199bf3c8bd5681e4c42908ba1ab515173c1aefe92eadc1f3c"
+    },
+    {
+      "path": "experiments/experiment3/README.md",
+      "size_bytes": 622,
+      "sha256": "146790a68621e27610d326b1b168dfb64b0aae88dbd71cfc77e53691c3a751aa"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/00_protocol/D0_zeta_first_10000_unfolded.csv",
+      "size_bytes": 597151,
+      "sha256": "de949c189fd6f0850028c65dc3a8d9830e579f54c50ebbf564c563b09e7c1c7a"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/00_protocol/D1_zeta_near_1e12_unfolded.csv",
+      "size_bytes": 626145,
+      "sha256": "ed762a6863eb3c2a0f3b9d5a91d1bce6a99d976b3c10112b73a1f1e3e31a0360"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/00_protocol/D2_zeta_near_1e21_unfolded.csv",
+      "size_bytes": 677215,
+      "sha256": "fae0106ab0486c84b361f9772a643653944e1b2e9a8720540240a1bb65952140"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/00_protocol/Deferred_Full_Experiment3_Record_v1.md",
+      "size_bytes": 801,
+      "sha256": "12fbdbf1ed4d36d1acb7040f6bd5c5577035244a10880e034a2cd36ea6a04f66"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/00_protocol/Experiment3BS_Release_v1_1_Change_Record.md",
+      "size_bytes": 2497,
+      "sha256": "99cfac75dedfca55a79d5370bdbfe98bb4d08c658e8116d1bc27d944081c3a51"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/00_protocol/Experiment3_Bounded_Cloud_Closure_Protocol_v1.md",
+      "size_bytes": 4570,
+      "sha256": "815e08aec7f55ddb5ba00655a24df77be94bad9b05384027c39a0c316a16251e"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/00_protocol/PROTOCOL_SHA256.txt",
+      "size_bytes": 127,
+      "sha256": "4d36559ce677894f95fc4a5c0783deb0141f368ac0028cf936a06b6717da3dc0"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/CODE_SHA256_v1_1.txt",
+      "size_bytes": 1658,
+      "sha256": "2a666c0cc8bd416765dbf9c7f1a9d3871486d6d3caabfb44649e1149b09cb098"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/aggregate_results_v1_1.py",
+      "size_bytes": 5734,
+      "sha256": "c0f764684d98738cd471472c3e6233695caffc59f2b591c743d3d6dc6a003635"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/compare_v1_scientific_outputs_v1_1.py",
+      "size_bytes": 4303,
+      "sha256": "a960fe9659246fd7a7e5878e836be94765dd33f362179f9e44ed1abee111d571"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/make_paper_figures_v1.py",
+      "size_bytes": 2559,
+      "sha256": "3c4384ed74827a0a40f58eb7e7d3784833ec072c0531452f75933969dd352a87"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/reproduce_experiment3bs_v1_1.sh",
+      "size_bytes": 1195,
+      "sha256": "f8cb90bba4ea02245f8eee05bccf503d23a24edce605eb2a0b2680641008fb0a"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/run_experiment3bs_v1_1.py",
+      "size_bytes": 15938,
+      "sha256": "35fb6bf9bc4408d27d6520fe033d573c51ed87d1dc36f438a2fb998aad99b432"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/runtime_src/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/runtime_src/collision_decomposition.py",
+      "size_bytes": 5540,
+      "sha256": "1384da0fe8bdcc804a146cd40fde92b01d53d4f825d93f1b9e14765ba4169c78"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/runtime_src/cue_cmv.py",
+      "size_bytes": 4192,
+      "sha256": "daed6783b30cfc1aac231ed5ae18ad7a2bb7cb7aaaa3803694ef02e66d400f04"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/runtime_src/poisson_control.py",
+      "size_bytes": 1337,
+      "sha256": "15d4bb7ef1456799e0c88a8c5f60a24d6d117eac65e47b522d4c2a7939379e9d"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/runtime_src/sinc_kernel.py",
+      "size_bytes": 1958,
+      "sha256": "a9e1dd29a54e22106b88f367b44331473bc25f777d9368c744d0a81104e77c05"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/runtime_src/spectral_moments.py",
+      "size_bytes": 3151,
+      "sha256": "f3cafdfc43286d0e85acc979458a9ad38977d38a7395de322659c86b54fd5c51"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/runtime_src/zeta_inputs.py",
+      "size_bytes": 1556,
+      "sha256": "cf0b2224c258f508c6a779ce2bf6fdc5374b3ee3601251867d1696e6ab999d68"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/tests/test_experiment3bs_v1_1.py",
+      "size_bytes": 5189,
+      "sha256": "63be9e992f475592d68f110f98a7befc05be3aedbc745c781a9a5039b71401a3"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/validate_collision_decomposition_v1_1.py",
+      "size_bytes": 6026,
+      "sha256": "e4964f08138d89e271a0c82df1188b5bf33ca32eddf69d9aa6e10113fd93a623"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/validate_moments_v1_1.py",
+      "size_bytes": 3637,
+      "sha256": "9b50161c00c734678a67e325aacaffba14631998c892826f68cd286b79e53a13"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/01_code/validate_release_v1_1.py",
+      "size_bytes": 6959,
+      "sha256": "4f562f3cbb1ef3bd93bceaf0e68f8d718d42cf2bdbd8948df382cec7e44d4dcb"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/02_results/all_window_endpoints.csv",
+      "size_bytes": 35276,
+      "sha256": "bbe7b32f699215dd9419d6a6ca1e54b1b33cc032595baf7afeaa4c00ead93930"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/02_results/bounded_cloud_results.json",
+      "size_bytes": 26274,
+      "sha256": "507180398e7518984857c3bd9770f4d1b0b5649ff3eb49b739ed8c3a7b9c9520"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/02_results/derived_table_validation.json",
+      "size_bytes": 492,
+      "sha256": "0cdbf113ee177e29934d395b3ad0ae51df42bcd230172c1e3a892c42a6dc3d1e"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/02_results/descriptive_comparisons.json",
+      "size_bytes": 10966,
+      "sha256": "f1034fb84aa71137588985c6df9e34e41ac191fc117a1a2774edc4d74ab273a4"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/02_results/group_summary.csv",
+      "size_bytes": 1395,
+      "sha256": "487e4c4c7b2a70369ec6cd8332598dc4fc640592e4109b22662348276d2004df"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/02_results/homometric_control.json",
+      "size_bytes": 529,
+      "sha256": "143bcbf27da978b89723e8091e6f4d2b80da6e3c4ca4c0c801135734f666dfa7"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/02_results/lattice_control.json",
+      "size_bytes": 320,
+      "sha256": "ce850696e05dcbfd9c1134354715063da3f907ab3fe30dc3247514a2fb2eefbf"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/02_results/mu4_difference_decomposition_vs_cue.csv",
+      "size_bytes": 473,
+      "sha256": "5180d61616b938b2a159c1b7fd36c6128fd8d5e4e47390fafc89bbef7a35ac16"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/02_results/uncertainty_scale_comparison.csv",
+      "size_bytes": 1896,
+      "sha256": "56667c3b1f5eff8befa8764818cf09e85f0a35f90d6ad049b451c315fabaccbc"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/03_figures/homometric_moment_comparison.png",
+      "size_bytes": 74739,
+      "sha256": "85d05d3bf08cf069414ed34da56315333adc4f2e9a16024eb3f0ca45f9814ca7"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/03_figures/mu2_boxplot.png",
+      "size_bytes": 49562,
+      "sha256": "27667bbc8b3142582558ded6d8dfdeeb9ea69a39a9c8f20e9d8ef63b455131ed"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/03_figures/mu2_height_trajectory.png",
+      "size_bytes": 60417,
+      "sha256": "0fe35feb1c8a235092e0abc75b6645de77b44d18a9f9f2ef20952d8076e8f171"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/03_figures/mu2_zeta_cue_zoom.png",
+      "size_bytes": 52168,
+      "sha256": "d6b504027f511b89446c01fc2ba45888fc4ff2b56af292ab3b2be00c9edb2223"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/03_figures/mu4_difference_decomposition_vs_cue.png",
+      "size_bytes": 60814,
+      "sha256": "af6b1038deaa753659e0136489edeb27e0d222ab4b5f4713a765ab6d57dec883"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/03_figures/mu4_gt2_boxplot.png",
+      "size_bytes": 61868,
+      "sha256": "5080c335f964b333bd6cd017f254aaa265a73e390e7321781fc3ce5a34c8ae28"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/03_figures/mu4_gt2_height_trajectory.png",
+      "size_bytes": 65049,
+      "sha256": "ae6a3912bf727752691f4c4db14c01208fee2daf501980da4534c48c1af06f18"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/03_figures/mu4_gt2_zeta_cue_zoom.png",
+      "size_bytes": 61257,
+      "sha256": "7a4d24b2106b297e353022fc83fdfd3997e4eb5997f4bb5fa7c15ac34c9c2ea1"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/03_figures/mu4_raw_boxplot.png",
+      "size_bytes": 50280,
+      "sha256": "7b1b3f03e07341582b70e7468962a8455e52f60ab0d8df2fa6a357d33748aa34"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/03_figures/mu4_raw_height_trajectory.png",
+      "size_bytes": 66044,
+      "sha256": "7104e0b9391828cba76a7ed638e5c0b1e82d114231b047b0e1fa2296c33b1f95"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/03_figures/mu4_raw_zeta_cue_zoom.png",
+      "size_bytes": 50311,
+      "sha256": "3b0e4986cfba59335e572ed5f94f8c0f0a6846abd047967e9f0ab6d415864048"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/Experiment3BS_Closure_Decision_v1.1.md",
+      "size_bytes": 2221,
+      "sha256": "51ddb5dca7338789484ec9363b5fd3f34e5d8e37b1aba492e6fa2d46033ef3cf"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/Experiment3BS_Corrected_Release_Report_v1.1.md",
+      "size_bytes": 11066,
+      "sha256": "15bf29cc027b93b471f508ef8d5b7a111ed885f0cc01eee9aaf5aaaff1588fe8"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/Experiment3BS_Peer_Review_Response_v1.md",
+      "size_bytes": 3091,
+      "sha256": "054c7682a2f39c60e7d3615b485cfe636b020addef5bc3a37773f5484e180d9c"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/Experiment3BS_v1_to_v1_1_Scientific_Equivalence_Check.json",
+      "size_bytes": 779,
+      "sha256": "81da1ad2d1c7e5e5d4886595876b084a930053f51696efa73e2fcbbfbe7643f7"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/collision_validation_log_v1_1.txt",
+      "size_bytes": 479,
+      "sha256": "fb117adeb2219e156fc188c7225612fbddd54afd4b561160a2aef4fc91cc7ae9"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/diffs/collision_decomposition_v1_to_v1_1.diff",
+      "size_bytes": 3591,
+      "sha256": "b218fabe7095521aa7f4a7821a7481e48e12cb73d800f9c2a0a0b2f3768d985a"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/diffs/paper_v0.3.1_to_v0.3.2.diff",
+      "size_bytes": 15263,
+      "sha256": "3fba1a4644c00980c3af4558e4b57651f23dbf5009587a825f39d07a30675c5b"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/diffs/runner_v1_to_v1_1.diff",
+      "size_bytes": 7749,
+      "sha256": "52aa78686c5f892da115d1a3363e95a1a95eead2007372254784ae3748338c77"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/environment_v1_1.json",
+      "size_bytes": 669,
+      "sha256": "7868261054eaad6a4f03da85efa965e6825cc00fe5f1951d1c228ab6b6c043b5"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/execution_log_v1_1.txt",
+      "size_bytes": 621,
+      "sha256": "77fb9d46019102936a7bc23a24fabeb2576adfe78593015e7258269695955a43"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/execution_resource_log_v1_1.txt",
+      "size_bytes": 765,
+      "sha256": "7cc69824640b9df7ac89ffd2768cc07dae3757cf5a4c40aa944f27544de1f715"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/exit_code_v1_1.txt",
+      "size_bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/figure_generation_log_v1_1.txt",
+      "size_bytes": 44,
+      "sha256": "bb7bb8eb3261ae4fe2e74bda04c46da2a52350aa8ad6c5179107b8ec8f106876"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/independent_collision_validation_v1_1.json",
+      "size_bytes": 36150,
+      "sha256": "7edb9def1731f238ca883bc377d3af122ec571f37fffa7a67b95e8c21f0e578b"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/independent_moment_validation_v1_1.json",
+      "size_bytes": 2505,
+      "sha256": "a5cf3aad5a780dd7594ea8803b4ae84f6e581916b818020bbb163a97948b9cd0"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/moment_validation_log_v1_1.txt",
+      "size_bytes": 211,
+      "sha256": "bd76d2f9ec3ea068ac68b62497828485cc6ebdf6bfad3bab7a8b6a6c194c01e8"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/new_files_v1_1.txt",
+      "size_bytes": 1054,
+      "sha256": "5dd717f2d11dc165520e97641d443bcf84c13faa3a5f8fee21097739583ba7f8"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/release_validation_log_v1_1.txt",
+      "size_bytes": 166,
+      "sha256": "afd474f8a6035a40ecd00c386178c4d81fb1341ad0db14e76c98d1c6228f3994"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/scientific_equivalence_log_v1_1.txt",
+      "size_bytes": 779,
+      "sha256": "81da1ad2d1c7e5e5d4886595876b084a930053f51696efa73e2fcbbfbe7643f7"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/04_report/unit_test_log_v1_1.txt",
+      "size_bytes": 98,
+      "sha256": "1b2656f5fc4bff75b8cd52aba0844fe99ec5f4f66ebf1c6f920dd4c165b9649e"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/05_integrity/Project_Montecito_Experiment3BS_Manifest_v1.1.json",
+      "size_bytes": 13850,
+      "sha256": "b7b2e252cc9dde250e711531ba2daa92583f77463955e07bcd7d28adbcd1c4be"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/05_integrity/Project_Montecito_Experiment3BS_Release_Validation_v1_1.json",
+      "size_bytes": 4361,
+      "sha256": "1ec099ce737851d583b3c0e005f0b011dc3105f823dd3d07a5c24f07ca604f00"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/05_integrity/SHA256SUMS_Project_Montecito_Experiment3BS_v1.1.txt",
+      "size_bytes": 7724,
+      "sha256": "cfb2a74ab3754ea9f5b7f9f5f250153bedb204bfe3891fdf712eeb0857516dda"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/06_paper/Project_Montecito_Paper_Simple_Draft_v0.3.2.md",
+      "size_bytes": 22700,
+      "sha256": "d4fd8443859204af1589b85fa398cc081df69375bd54c1f9c81593681663ab39"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/07_peer_review/16-experiment3-bounded-study-review.md",
+      "size_bytes": 9276,
+      "sha256": "62a67b0b2c7274bc5f33f78dad235ba4e96ad790dced8036bfb7247716dce758"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/08_reference_v1/README.md",
+      "size_bytes": 449,
+      "sha256": "64f06d165d1831c0b9163c539fbed034b5d720e6a65c38185fc42edbd605d71c"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/08_reference_v1/all_window_endpoints_v1.csv",
+      "size_bytes": 35260,
+      "sha256": "eaf093b76a1bd8d8a4532bbaeb926a9da66e158b31f4b2470ed2fa3ab70ce7e0"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/08_reference_v1/bounded_cloud_results_v1.json",
+      "size_bytes": 20832,
+      "sha256": "16961083124452b633354b8a4df0dc0d29c76d557ff80b4bf43c6dfef08e0764"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/README.md",
+      "size_bytes": 2194,
+      "sha256": "3cab1232fc4d2bb7b9546efa50024969af408e5937ab2d83037818c31e7b767b"
+    },
+    {
+      "path": "paper/Project_Montecito_Paper_v1_9.md",
+      "size_bytes": 77351,
+      "sha256": "ec4c866a9d2052c1789c15b652f1c66eb0370785e3d433224abd49df9f3d25c3"
+    },
+    {
+      "path": "paper/README.md",
+      "size_bytes": 591,
+      "sha256": "e94540808efa3d2d4a13f5f10ebd5b1179d0f0ebdfcf33a3f749be94e332d47f"
+    },
+    {
+      "path": "paper/figures/README.md",
+      "size_bytes": 202,
+      "sha256": "6f9b67405d41c99cc1d16dae8a798963cac0da4b785a199fde208ca7bd4458db"
+    },
+    {
+      "path": "paper/figures/figure1_pair_correlation_low_height.png",
+      "size_bytes": 86549,
+      "sha256": "598c0e7e85c65e8c5415110ab376493debd8a0d9f299bfd463e8c8b4be31aae6"
+    },
+    {
+      "path": "paper/figures/figure2_D05_by_height.png",
+      "size_bytes": 76852,
+      "sha256": "76f7f45ecd38971f13bd40dbadbfe91d0514858018fa41674cd780703f3001f0"
+    },
+    {
+      "path": "paper/figures/figure3_experiment2_inertia_across_height.png",
+      "size_bytes": 97059,
+      "sha256": "2e554da61b6a59cc52e6f8f8ca6a30bf889ebd3b2804a9665e455c9b72ba40ab"
+    },
+    {
+      "path": "paper/figures/figure4a_homometric_control.png",
+      "size_bytes": 74739,
+      "sha256": "85d05d3bf08cf069414ed34da56315333adc4f2e9a16024eb3f0ca45f9814ca7"
+    },
+    {
+      "path": "paper/figures/figure5_experiment3_summary.png",
+      "size_bytes": 169479,
+      "sha256": "a70486191d86c937aa68b47760f53c9219c1b130376257b7873385d477f57b1a"
+    },
+    {
+      "path": "paper/figures/figure5_mu2_pair_reconstruction.png",
+      "size_bytes": 99424,
+      "sha256": "b75af393d336d6957e35ed92eff463a3ecc39d0a7090e2ed2a7c1cbad323ccc7"
+    },
+    {
+      "path": "paper/figures/figure6_two_uncertainty_scales.png",
+      "size_bytes": 118333,
+      "sha256": "296e6b190665f53741e03a709892722804e622309c275f36366a9e9aff1ca9b1"
+    },
+    {
+      "path": "paper/figures/figure7_mu4_decomposition.png",
+      "size_bytes": 60814,
+      "sha256": "af6b1038deaa753659e0136489edeb27e0d222ab4b5f4713a765ab6d57dec883"
+    },
+    {
+      "path": "paper/supporting_analysis/Project_Montecito_Paper_v1_2_Review.md",
+      "size_bytes": 15027,
+      "sha256": "ee0204eceef0f52ad48b63f48e9a1ce4a4454f13f4073f7bdbf48adbb4c07d2f"
+    },
+    {
+      "path": "paper/supporting_analysis/Project_Montecito_Paper_v1_4_Peer_Review_Response.md",
+      "size_bytes": 2705,
+      "sha256": "b997d91dd481c4338d18a875d7b329c5507fb736e4a91c6483f73db291887e0d"
+    },
+    {
+      "path": "paper/supporting_analysis/experiment3_corrected_uncertainty_scales_v1.csv",
+      "size_bytes": 2625,
+      "sha256": "389147085d4d487f855f5b0ef01d385b8a9f500d0fe78fea30a388c4468974c9"
+    },
+    {
+      "path": "paper/supporting_analysis/reconstruct_sinc_mu2_from_pair_histograms_v1.py",
+      "size_bytes": 6921,
+      "sha256": "ea5257b3c91e3255ac9d24b33c8125f2d9fdbe3b67bfd2369c67c084a4f609a0"
+    },
+    {
+      "path": "paper/supporting_analysis/sinc_mu2_histogram_reconstruction_v1.csv",
+      "size_bytes": 396,
+      "sha256": "8302f3739777fc3b7a95743cadde4028fa26edbd0238d39671678bd4c86880d8"
+    },
+    {
+      "path": "paper/supporting_analysis/sinc_mu2_histogram_reconstruction_v1.json",
+      "size_bytes": 2032,
+      "sha256": "ee755e4fa2fcb5fee3719e17ba0d6594c6ec2e10b867117336023b1c5490f2e3"
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 643,
+      "sha256": "6b752a513961556f6fe41e652850834f1e95ae787f648c77b1c95a41b7b6cbb3"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 89,
+      "sha256": "3a19a4831770cd95662c495f862244d4d7ccc8b928470c0357fc3a8a3c9c3424"
+    },
+    {
+      "path": "scripts/create_manifest.py",
+      "size_bytes": 1601,
+      "sha256": "8eed5b862c613a968184b5255fe6983ae0fea5d2d1761087ae02a7c94f7bb881"
+    },
+    {
+      "path": "scripts/finalize_repository.py",
+      "size_bytes": 1349,
+      "sha256": "150b19a177c04611a2e83052acac2a64a5dc3a9675bbc25161b5aa12e18d855c"
+    },
+    {
+      "path": "scripts/reproduce.py",
+      "size_bytes": 2143,
+      "sha256": "78a6a4891465cc53481d14f79a0878b6bf1f9cf405a4290cf9440c394ba5a7ab"
+    },
+    {
+      "path": "scripts/smoke_test.py",
+      "size_bytes": 1196,
+      "sha256": "ad922cca37475c7a73e3eb385f1b50d23f6702a56ed3a7aeab8b72be44edc816"
+    },
+    {
+      "path": "scripts/verify_repository.py",
+      "size_bytes": 2083,
+      "sha256": "99149b4a47335a61d2293875c93e65d21c15d435dc91069e67374d6704438f19"
+    }
+  ]
+}

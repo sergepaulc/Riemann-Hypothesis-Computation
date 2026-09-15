@@ -1,0 +1,22 @@
+{
+  "datasets": [
+    "low_height_first_10000",
+    "near_1e12",
+    "near_1e21"
+  ],
+  "blocks_analyzed": 144,
+  "inertia_rows": 2592,
+  "unresolved_eigenvalue_assignments_total": 0,
+  "max_C_symmetry_error": 0.0,
+  "max_C_diagonal_error": 0.0,
+  "minimum_C_eigenvalue_all_blocks": 9.420899603129862e-05,
+  "blocks_with_C_eigenvalue_below_negative_psd_tolerance": 0,
+  "max_C_frobenius_spectral_identity_error": 5.684341886080801e-13,
+  "max_H_trace_identity_error": 1.1368683772161603e-13,
+  "max_H_frobenius_identity_error": 3.410605131648481e-13,
+  "max_direct_H_eigenvalue_check_error": 2.4868995751603507e-14,
+  "min_abs_H_eigenvalue_over_grid": 2.515761678756334e-06,
+  "primary_tail_bound_m512_double_precision_value": 0.0,
+  "primary_tail_bound_m512_exact_scientific": "3.569909020256583e-386",
+  "primary_tail_bound_m512_log10": -385.447343
+}

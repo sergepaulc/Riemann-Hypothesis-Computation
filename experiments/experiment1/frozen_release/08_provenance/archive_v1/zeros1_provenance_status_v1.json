@@ -1,0 +1,14 @@
+{
+  "official_url": "https://www-users.cse.umn.edu/~odlyzko/zeta_tables/zeros1",
+  "content_type_observed": "text/plain",
+  "official_total_rows_observed": 100000,
+  "official_first_value_observed": "14.134725142",
+  "official_10000th_value_observed": "9877.782654004",
+  "stated_accuracy_from_project_sources": "within approximately 3e-9",
+  "local_first10000_row_count": 10000,
+  "local_first_value_rounded_9dp": "14.134725142",
+  "local_10000th_value_rounded_9dp": "9877.782654005",
+  "local_first10000_numeric_sha256": "d52ca598a98eb3c9810656703bf797fee4264c0446ff1739afcdb0e493c321fb",
+  "raw_official_zeros1_byte_file_present_in_runtime": false,
+  "raw_official_zeros1_byte_sha256_status": "PENDING: official bytes can be viewed through web source but cannot be materialized into this numerical runtime"
+}

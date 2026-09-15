@@ -1,0 +1,26 @@
+
+[project]
+name = "riemann-hypothesis-computation"
+version = "1.0.1"
+description = "Reproducibility repository for three computational experiments on zeta-zero statistics and finite kernel matrices"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Serge-Paul Carrasco"}]
+dependencies = [
+  "numpy==2.3.5",
+  "pandas==2.2.3",
+  "scipy==1.17.0",
+  "matplotlib==3.10.8",
+  "mpmath==1.3.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.0.2"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = [
+  "experiments/experiment1/tests",
+  "experiments/experiment3/frozen_release/01_code/tests",
+]

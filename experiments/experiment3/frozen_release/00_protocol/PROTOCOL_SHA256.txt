@@ -1,0 +1,1 @@
+815e08aec7f55ddb5ba00655a24df77be94bad9b05384027c39a0c316a16251e  00_protocol/Experiment3_Bounded_Cloud_Closure_Protocol_v1.md

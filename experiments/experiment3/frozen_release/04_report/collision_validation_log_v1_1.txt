@@ -1,0 +1,18 @@
+{
+  "cases_tested": 54,
+  "document_id": "Experiment3BS_Independent_Collision_Validation_v1_1",
+  "matrix_sizes": [
+    5,
+    6,
+    7
+  ],
+  "matrix_types": [
+    "sinc",
+    "generic_symmetric_unit_diagonal"
+  ],
+  "maximum_index_class_absolute_error": 4.263256414560601e-14,
+  "maximum_term_absolute_error": 3.694822225952521e-13,
+  "method": "explicit ordered quadruple enumeration; Q4 computed directly over all-distinct tuples",
+  "status": "PASS",
+  "tolerance": 2e-12
+}

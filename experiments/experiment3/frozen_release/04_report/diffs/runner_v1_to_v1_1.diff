@@ -1,0 +1,143 @@
+--- v1/01_code/run_bounded_cloud_closure_v1.py
++++ v1.1/01_code/run_experiment3bs_v1_1.py
+@@ -1,8 +1,9 @@
+ #!/usr/bin/env python3
+-"""Project Montecito Experiment 3 bounded cloud closure study.
++"""Project Montecito Experiment 3BS corrected release runner v1.1.
+ 
+-Executes the fixed protocol in ../00_protocol/Experiment3_Bounded_Cloud_Closure_Protocol_v1.md.
+-This is an exploratory finite-sample study, not the full confirmatory Experiment 3.
++Re-executes the immutable bounded-study protocol and deterministically generates
++all primary and derived result tables. This is an exploratory finite-sample study,
++not the deferred full confirmatory Experiment 3.
+ """
+ from __future__ import annotations
+ 
+@@ -30,6 +31,7 @@
+ from runtime_src.sinc_kernel import build_sinc_kernel
+ from runtime_src.spectral_moments import core_product_rows, moments_from_core_rows, raw_moments
+ from runtime_src.zeta_inputs import load_point_csv, sha256_file
++from aggregate_results_v1_1 import generate_summary_tables
+ 
+ PROTOCOL = BASE / "00_protocol" / "Experiment3_Bounded_Cloud_Closure_Protocol_v1.md"
+ RESULTS = BASE / "02_results"
+@@ -71,10 +73,10 @@
+     moments = moments_from_core_rows(K_core, K2_core)
+     terms = anchored_collision_terms(K, CORE, precomputed_rows=(K_core, K2_core))
+     td = terms.to_dict()
+-    reconstruction_scale = max(1.0, abs(td["direct_numerator"]))
+-    reconstruction_rel = abs(td["reconstruction_error"]) / reconstruction_scale
+-    if reconstruction_rel > 1e-11:
+-        raise RuntimeError(f"collision reconstruction failed: {reconstruction_rel}")
++    # Q4 is computed as a residual in the production path. The resulting closure
++    # residual is retained only as an algebraic bookkeeping value; it is not an
++    # independent validation. Independent explicit-enumeration tests are shipped.
++    closure_residual = float(td["algebraic_closure_residual_by_construction"])
+     return {
+         "source": source,
+         "index": int(index),
+@@ -89,7 +91,7 @@
+         "q4_per_core": float(td["q4_per_core"]),
+         "pair_part_per_core": float(td["pair_part"] / len(CORE)),
+         "three_index_part_per_core": float(td["three_index_part"] / len(CORE)),
+-        "reconstruction_relative_error": float(reconstruction_rel),
++        "algebraic_closure_residual_by_construction": closure_residual,
+     }
+ 
+ 
+@@ -128,6 +130,7 @@
+     csd = float(np.std(cue_values, ddof=1))
+     indices = rng.integers(0, cue_values.size, size=(draws, zeta_values.size))
+     boot_means = np.mean(cue_values[indices], axis=1)
++    boot_mean_sd = float(np.std(boot_means, ddof=1))
+     centered_distance = abs(zmean - cmean)
+     tail = float((1 + np.count_nonzero(np.abs(boot_means - cmean) >= centered_distance)) / (draws + 1))
+     percentile = float((np.count_nonzero(boot_means <= zmean) + 0.5) / (draws + 1))
+@@ -135,7 +138,10 @@
+         "zeta_mean": zmean,
+         "cue_mean": cmean,
+         "difference": zmean - cmean,
++        "cue_window_sd": csd,
+         "effect_in_cue_window_sd": (zmean - cmean) / csd if csd > 0 else math.nan,
++        "cue_16_window_mean_bootstrap_sd": boot_mean_sd,
++        "effect_in_cue_16_window_mean_bootstrap_sd": (zmean - cmean) / boot_mean_sd if boot_mean_sd > 0 else math.nan,
+         "bootstrap_mean_q025": float(np.quantile(boot_means, 0.025)),
+         "bootstrap_mean_q975": float(np.quantile(boot_means, 0.975)),
+         "bootstrap_mean_percentile": percentile,
+@@ -267,28 +273,49 @@
+         for metric in METRICS:
+             summaries[group][metric] = summarize(np.asarray([row[metric] for row in grows]))
+         summaries[group]["mean_spacing"] = summarize(np.asarray([row["mean_spacing"] for row in grows]))
+-        summaries[group]["max_reconstruction_relative_error"] = max(row["reconstruction_relative_error"] for row in grows)
++        summaries[group]["max_absolute_algebraic_closure_residual_by_construction"] = max(
++            abs(float(row["algebraic_closure_residual_by_construction"])) for row in grows
++        )
+ 
+     comparisons: dict[str, Any] = {}
+     cue_rows = [row for row in rows if row["source"] == "CUE"]
+     for dataset in DATASETS:
+         comparisons[dataset] = {}
+         zrows = [row for row in rows if row["source"] == dataset]
+-        for metric in ["mu2", "mu4_raw", "mu4_gt2", "q4_per_core"]:
++        for metric in ["mu2", "mu3", "mu4_raw", "mu4_gt2", "q4_per_core"]:
+             comparisons[dataset][metric] = bootstrap_cue_mean_comparison(
+                 np.asarray([r[metric] for r in zrows]),
+                 np.asarray([r[metric] for r in cue_rows]),
+                 f"{dataset}_{metric}",
+             )
+ 
++    uncertainty_rows: list[dict[str, Any]] = []
++    for dataset in DATASETS:
++        for metric in ["mu2", "mu3", "mu4_raw", "mu4_gt2"]:
++            comp = comparisons[dataset][metric]
++            uncertainty_rows.append(
++                {
++                    "dataset": dataset,
++                    "metric": metric,
++                    "difference_vs_CUE": comp["difference"],
++                    "cue_individual_window_sd": comp["cue_window_sd"],
++                    "effect_in_cue_individual_window_sd": comp["effect_in_cue_window_sd"],
++                    "cue_16_window_mean_bootstrap_sd": comp["cue_16_window_mean_bootstrap_sd"],
++                    "effect_in_cue_16_window_mean_bootstrap_sd": comp["effect_in_cue_16_window_mean_bootstrap_sd"],
++                    "bootstrap_two_sided_tail_descriptive": comp["bootstrap_two_sided_tail_descriptive"],
++                }
++            )
++    write_csv(RESULTS / "uncertainty_scale_comparison.csv", uncertainty_rows)
++
++    derived_table_validation = generate_summary_tables(RESULTS)
+     figures = make_figures(rows, summaries)
+     elapsed = time.perf_counter() - start
+     peak_rss = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+-    # Linux ru_maxrss is KiB; macOS is bytes. This cloud execution is Linux.
++    # Linux ru_maxrss is KiB; macOS reports bytes.
+     peak_rss_bytes = int(peak_rss * 1024) if platform.system() == "Linux" else int(peak_rss)
+ 
+     result = {
+-        "document_id": "Project_Montecito_Experiment3_Bounded_Cloud_Closure_Results_v1",
++        "document_id": "Project_Montecito_Experiment3BS_Results_v1_1",
+         "classification": "EXPLORATORY_FINITE_SAMPLE_CLOSURE_STUDY",
+         "protocol_sha256": psha,
+         "scientific_parameters": {
+@@ -308,6 +335,13 @@
+         "zeta_vs_cue_descriptive_comparisons": comparisons,
+         "lattice_control": lattice,
+         "homometric_control": homometric,
++        "derived_table_validation": derived_table_validation,
++        "uncertainty_scale_table": "02_results/uncertainty_scale_comparison.csv",
++        "collision_validation_note": (
++            "The production Q4 term is residual-based. Its algebraic closure residual is not "
++            "an independent check; independent brute-force validation is shipped in 04_report/"
++            "independent_collision_validation_v1_1.json and 01_code/tests/."
++        ),
+         "figures": figures,
+         "runtime": {
+             "elapsed_seconds": elapsed,
+@@ -318,7 +352,7 @@
+             "numpy": np.__version__,
+         },
+         "claim_boundary": "No RH claim; no theorem validation; no proof that differences are beyond the complete two-point law; no confirmatory p-values.",
+-        "terminal_status": "BOUNDED_STUDY_COMPLETE_CLOSE_REGARDLESS_OF_OUTCOME",
++        "terminal_status": "EXPERIMENT3BS_COMPLETE_CORRECTED_RELEASE_V1_1",
+     }
+     (RESULTS / "bounded_cloud_results.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+     (RESULTS / "lattice_control.json").write_text(json.dumps(lattice, indent=2, sort_keys=True) + "\n", encoding="utf-8")

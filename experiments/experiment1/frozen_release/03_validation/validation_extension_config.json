@@ -1,0 +1,15 @@
+{
+  "project": "Project Montecito",
+  "experiment": "Experiment 1 validation extension",
+  "no_experiment_2_work_performed": true,
+  "theta_unfolding": "1 + siegeltheta(gamma)/pi",
+  "gue_mc": {
+    "replicates": 200,
+    "seed": 20260827,
+    "matrix_model": "Dumitriu-Edelman beta=2 Hermite tridiagonal",
+    "matrix_dimension": 1200,
+    "blocks_per_replicate": 10,
+    "bulk_points_per_block": 1000,
+    "unfolding": "integrated semicircle law"
+  }
+}

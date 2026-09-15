@@ -1,0 +1,14 @@
+{
+  "experiment": "Project Montecito Experiment 1",
+  "report_version": 2,
+  "peer_review_incorporated": true,
+  "frozen_source_artifacts_unchanged": [
+    "data/zeta_unfolded_points.csv",
+    "data/zeta_pair_correlation.csv",
+    "data/zeta_zeros_10000_validated.csv"
+  ],
+  "theory_comparison_update": "Bin-averaged / edge-weighted GUE expectation",
+  "formal_inference_policy": "Block SE descriptive only; matched Monte Carlo required for formal significance",
+  "migration_level1_rule": "Quantify/propagate zeta-vs-GUE pair-correlation difference before interpreting Level-2 inertia difference",
+  "optional_extension": "Experiment 1B high-height Odlyzko blocks before final Experiment 3 interpretation"
+}

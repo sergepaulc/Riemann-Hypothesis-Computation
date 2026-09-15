@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying paper and this software release."
+title: "Riemann Hypothesis Computation: reproducibility code and data for three experiments on zeta-zero statistics"
+version: 1.0.1
+date-released: 2026-09-15
+authors:
+  - family-names: Carrasco
+    given-names: Serge-Paul
+repository-code: "https://github.com/sergepaulc/Riemann-Hypothesis-Computation"
+license: MIT
+keywords:
+  - Riemann zeta function
+  - pair correlation
+  - random matrix theory
+  - Hermitian matrices
+  - spectral moments
+  - reproducible research

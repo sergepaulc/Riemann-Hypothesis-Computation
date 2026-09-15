@@ -1,0 +1,176 @@
+{
+  "checks": [
+    {
+      "detail": "815e08aec7f55ddb5ba00655a24df77be94bad9b05384027c39a0c316a16251e",
+      "name": "protocol_sha256",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "result_protocol_binding",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "D3_not_accessed",
+      "status": "PASS"
+    },
+    {
+      "detail": "de949c189fd6f0850028c65dc3a8d9830e579f54c50ebbf564c563b09e7c1c7a",
+      "name": "input_sha256:D0_zeta_first_10000_unfolded.csv",
+      "status": "PASS"
+    },
+    {
+      "detail": "ed762a6863eb3c2a0f3b9d5a91d1bce6a99d976b3c10112b73a1f1e3e31a0360",
+      "name": "input_sha256:D1_zeta_near_1e12_unfolded.csv",
+      "status": "PASS"
+    },
+    {
+      "detail": "fae0106ab0486c84b361f9772a643653944e1b2e9a8720540240a1bb65952140",
+      "name": "input_sha256:D2_zeta_near_1e21_unfolded.csv",
+      "status": "PASS"
+    },
+    {
+      "detail": 176,
+      "name": "endpoint_row_count",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "CUE": 64,
+        "D0_first_10000": 16,
+        "D1_near_1e12": 16,
+        "D2_near_1e21": 16,
+        "Poisson": 64
+      },
+      "name": "endpoint_group_counts",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "legacy_circular_field_retired",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "algebraic_residual_labeled",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "document_id": "Experiment3BS_Derived_Table_Validation_v1_1",
+        "endpoint_rows": 176,
+        "generated_files": [
+          "group_summary.csv",
+          "mu4_difference_decomposition_vs_cue.csv"
+        ],
+        "group_counts": {
+          "CUE": 64,
+          "D0_first_10000": 16,
+          "D1_near_1e12": 16,
+          "D2_near_1e21": 16,
+          "Poisson": 64
+        },
+        "max_group_identity_error_raw_minus_pair_minus_gt2": 9.43689570931383e-16,
+        "source": "02_results/all_window_endpoints.csv",
+        "status": "PASS",
+        "tolerance": 1e-12
+      },
+      "name": "derived_tables_regenerable",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "cases": 54,
+        "max_term_error": 3.694822225952521e-13
+      },
+      "name": "independent_collision_validation",
+      "status": "PASS"
+    },
+    {
+      "detail": 4.440892098500626e-16,
+      "name": "independent_moment_validation",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "endpoint_max": 0.0,
+        "json_max": 0.0
+      },
+      "name": "scientific_equivalence_to_v1",
+      "status": "PASS"
+    },
+    {
+      "detail": 12,
+      "name": "uncertainty_scale_rows",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "both_uncertainty_scales_present",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "unit_test_source_shipped",
+      "status": "PASS"
+    },
+    {
+      "detail": "........                                                                 [100%]\n8 passed in 0.22s",
+      "name": "unit_tests_pass",
+      "status": "PASS"
+    },
+    {
+      "detail": [],
+      "name": "python_compilation",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        "homometric_moment_comparison.png",
+        "mu2_boxplot.png",
+        "mu2_height_trajectory.png",
+        "mu2_zeta_cue_zoom.png",
+        "mu4_difference_decomposition_vs_cue.png",
+        "mu4_gt2_boxplot.png",
+        "mu4_gt2_height_trajectory.png",
+        "mu4_gt2_zeta_cue_zoom.png",
+        "mu4_raw_boxplot.png",
+        "mu4_raw_height_trajectory.png",
+        "mu4_raw_zeta_cue_zoom.png"
+      ],
+      "name": "figure_set_complete",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "paper_uses_public_experiment3_name",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "paper_uncertainty_scales_explained",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "paper_D1_D2_distinction",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "paper_homometric_promoted",
+      "status": "PASS"
+    },
+    {
+      "detail": [],
+      "name": "no_D3_source",
+      "status": "PASS"
+    }
+  ],
+  "checks_failed": 0,
+  "checks_passed": 25,
+  "checks_total": 25,
+  "document_id": "Project_Montecito_Experiment3BS_Release_Validation_v1_1",
+  "status": "PASS"
+}

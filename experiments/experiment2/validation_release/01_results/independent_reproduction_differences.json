@@ -1,0 +1,22 @@
+{
+  "mu_min": 1.6393136847980827e-15,
+  "mu_max": 2.220446049250313e-14,
+  "frobC2_points": 1.1368683772161603e-13,
+  "D_C_points": 1.1102230246251565e-16,
+  "frobC2_pair_prediction": 2.2737367544323206e-13,
+  "D_C_pair_prediction": 5.551115123125783e-16,
+  "pair_prediction_abs_error_D": 5.217180854000247e-16,
+  "pair_prediction_rel_error_frob": 0.0005460722625987048,
+  "inertia_n_pos_res": 0.0,
+  "inertia_n_neg_res": 0.0,
+  "inertia_n_unres": 0.0,
+  "inertia_p_pos_res": 0.0,
+  "inertia_p_neg_res": 0.0,
+  "inertia_min_abs_H_eigenvalue": 1.1256620635613501e-14,
+  "inertia_b_pos_normalized": 1.1102230246251565e-16,
+  "full_D_C_direct": 2.2648549702353193e-14,
+  "full_D_C_pair_prediction": 2.220446049250313e-16,
+  "full_frob_relative_difference": 6.521588685454551e-07,
+  "pair_prediction_rel_error_frob_same_definition": 4.49293380277993e-16,
+  "full_frob_relative_difference_same_definition": 1.1607251618195313e-14
+}

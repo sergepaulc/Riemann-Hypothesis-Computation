@@ -1,0 +1,29 @@
+{
+  "project": "Project Montecito",
+  "experiment": "Experiment 1 High-Height Replication",
+  "analysis_plan_origin": "Frozen in conversation before the user supplied zeros3.txt and zeros4.txt",
+  "purpose": "Determine whether the low-height 22.4% u<0.5 deficit persists or disappears at much greater zeta-zero height.",
+  "datasets": {
+    "low": "first 10,000 zeros from Experiment 1",
+    "high_1e12": "user-supplied official Odlyzko zeros3.txt",
+    "high_1e21": "user-supplied official Odlyzko zeros4.txt"
+  },
+  "unfolding": "x_n = [siegeltheta(gamma_n)-siegeltheta(gamma_1)]/pi, computed at 70 decimal digits for high-height files",
+  "Umax": 30.0,
+  "bin_width": 0.1,
+  "primary_statistic": "D0.5 = 1 - observed pairs(0<u<0.5) / bin-integrated, edge-weighted GUE expected pairs",
+  "secondary_statistics": [
+    "S30",
+    "RMSE vs GUE for u<1 and u<5",
+    "first sub-unit peak",
+    "10x1000-point block D0.5"
+  ],
+  "GUE_calibration": "Frozen 200-replicate matched GUE ensemble from Experiment 1 Validation Extension",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "mpmath": "1.3.0",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41"
+  }
+}
