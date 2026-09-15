@@ -63,7 +63,6 @@ The downloader fetches from the authoritative source and fails if a SHA-256 fing
 - [Paper-to-code map](docs/PAPER_TO_CODE.md)
 - [Reproducibility guide](docs/REPRODUCIBILITY.md)
 - [Project status](docs/PROJECT_STATUS.md)
-- [GitHub publishing instructions](docs/GITHUB_PUBLISHING.md)
 - [Current manuscript draft](paper/Project_Montecito_Paper_v1_9.md)
 
 ## License and citation
