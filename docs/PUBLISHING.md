@@ -34,13 +34,13 @@ Do not copy a `.git/` directory from the old repository. Check `git config user.
 
 ## Publish the release
 
-In GitHub, open **Releases → Draft a new release**. Create tag `v1.0` from the validated `main` commit. Use the title **Riemann Hypothesis Computation — Version 1.0**, and paste `RELEASE_NOTES.md` into the release description. Attach the final paper PDF, Word, and Markdown; an additional ZIP of the clean package is optional. Save as a draft until the checks below pass, then publish.
+In GitHub, open **Releases → Draft a new release**. Create tag `v1.0` from the validated `main` commit. Use the title **Riemann Hypothesis Computation — Version 1.0**, and paste `RELEASE_NOTES.md` into the release description. The Markdown paper and its eight figures are included in the repository; a separate paper attachment is optional. Save as a draft until the checks below pass, then publish.
 
 The paper and code remain Version 1.0. `cff-version: 1.2.0` is the citation-file format, not the project version. The citation file intentionally omits a release date until the actual publication date is known.
 
 ## Final browser check
 
-Open the README links, the complete PDF, and the Word download. Check the Markdown's critical strip, piecewise equation in Section 2.7, norm expressions, tables, and all eight figures. Local MathJax checks are included, but GitHub's live renderer cannot be guaranteed without this final preview. Confirm that no governance or internal-review folders were uploaded.
+Open the README links and the Markdown paper. Check the Markdown's critical strip, piecewise equation in Section 2.7, norm expressions, tables, and all eight figures. Local MathJax checks are included, but GitHub's live renderer cannot be guaranteed without this final preview. Confirm that no governance or internal-review folders were uploaded.
 
 Useful official instructions:
 
