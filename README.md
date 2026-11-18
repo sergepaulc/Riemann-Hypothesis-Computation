@@ -5,6 +5,11 @@
 A computational investigation of pair correlations and spectral statistics of Riemann-zeta zeros. The repository contains three finite experiments, their numerical inputs and reference outputs, and checks of the calculations. It does not prove or disprove the Riemann Hypothesis.
 
 ## Read the paper
+## Abstract
+
+We study, through three reproducible experiments, how finite kernel-based spectral observables encode structure in unfolded Riemann-zeta zero configurations. Motivated by the 2026 quadratic and second-moment results of Alpöge--Furman and Lamzouri, we investigate a complementary finite question: which features of a zero configuration are retained by a chosen observable?
+
+Experiment 1 measures pair correlation in three samples of $`10,000`$ zeros. The first sample contains $`22.4\%`$ fewer pairs below half a mean spacing than the sine-kernel prediction, while the same statistic lies within the matched finite-GUE resolution near zero numbers $`10^{12}`$ and $`10^{21}`$. Experiment 2 applies a Gaussian Hermitian family and proves that its trace is data-independent, whereas its Frobenius moment and elementary inertia bound depend only on one weighted pair statistic; the full inertia calculation did not isolate an additional residual. Experiment 3 studies core-anchored moments of a sinc-kernel matrix. An exact homometric example proves that the fourth moment distinguishes configurations with the same pair-distance multiset, and an exact collision decomposition shows that $`72\%`$--$`80\%`$ of the observed raw fourth-moment displacement in two regimes is pair-driven. The study thus separates exact higher-order capacity from the lower-order content of the observed zeta comparisons.
 
 **[PDF](paper/Zeta_Zeros_Spectral_Statistics_v1.0.pdf) · [Markdown](paper/Zeta_Zeros_Spectral_Statistics_v1.0.md) · [Word](paper/Zeta_Zeros_Spectral_Statistics_v1.0.docx)**
 
