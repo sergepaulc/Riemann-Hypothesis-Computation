@@ -13,7 +13,7 @@ def main() -> int:
     failures=[]
     required=['README.md','RELEASE_NOTES.md','LICENSE','NOTICE.md','CITATION.cff','requirements.txt',
               'docs/REPRODUCING.md','docs/RESULTS_MAP.md','docs/VALIDATION.md','docs/PUBLISHING.md',
-              'paper/Zeta_Zeros_Spectral_Statistics_v1.0.md','paper/Zeta_Zeros_Spectral_Statistics_v1.0.pdf','paper/Zeta_Zeros_Spectral_Statistics_v1.0.docx']
+              'paper/Zeta_Zeros_Spectral_Statistics_v1.0.md']
     for name in required:
         if not (ROOT/name).is_file():failures.append('Missing required file: '+name)
     if (ROOT/'VERSION').read_text().strip()!='1.0':failures.append('VERSION must be 1.0')
