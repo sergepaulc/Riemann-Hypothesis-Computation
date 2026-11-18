@@ -1,0 +1,122 @@
+{
+  "integrity": {
+    "datasets": [
+      "low_height_first_10000",
+      "near_1e12",
+      "near_1e21"
+    ],
+    "blocks_analyzed": 144,
+    "inertia_rows": 2592,
+    "unresolved_eigenvalue_assignments_total": 0,
+    "max_C_symmetry_error": 0.0,
+    "max_C_diagonal_error": 0.0,
+    "minimum_C_eigenvalue_all_blocks": 9.420899603129862e-05,
+    "blocks_with_C_eigenvalue_below_negative_psd_tolerance": 0,
+    "max_C_frobenius_spectral_identity_error": 5.684341886080801e-13,
+    "max_H_trace_identity_error": 1.1368683772161603e-13,
+    "max_H_frobenius_identity_error": 3.410605131648481e-13,
+    "max_direct_H_eigenvalue_check_error": 2.4868995751603507e-14,
+    "min_abs_H_eigenvalue_over_grid": 2.515761678756334e-06,
+    "primary_tail_bound_m512": 0.0
+  },
+  "primary_block_metrics": [
+    {
+      "dataset": "low_height_first_10000",
+      "role": "primary",
+      "m": 128,
+      "n_locations": 16,
+      "D_C_points_mean": 0.9114467148894541,
+      "D_C_points_sd_location": 0.005052246565975272,
+      "D_C_prediction_mean": 0.914656042215551,
+      "D_C_prediction_sd_location": 0.0025880070335148222,
+      "D_C_bridge_bias_mean": -0.0032093273260968974,
+      "D_C_bridge_rmse": 0.0049299656576945105,
+      "frob_rel_error_mean": -0.001683339194850688,
+      "frob_rel_error_maxabs": 0.006123097516169721,
+      "mu_min_min": 0.0006583508596038576,
+      "mu_max_max": 2.9050943135808573,
+      "mean_spacing_mean": 1.0002819460936414,
+      "mean_spacing_sd": 0.0028512397128725017
+    },
+    {
+      "dataset": "low_height_first_10000",
+      "role": "primary",
+      "m": 256,
+      "n_locations": 16,
+      "D_C_points_mean": 0.9171959186458241,
+      "D_C_points_sd_location": 0.004797203957323098,
+      "D_C_prediction_mean": 0.9185406867374803,
+      "D_C_prediction_sd_location": 0.001460580795640005,
+      "D_C_bridge_bias_mean": -0.0013447680916563315,
+      "D_C_bridge_rmse": 0.004345672678295831,
+      "frob_rel_error_mean": -0.0007064234747896768,
+      "frob_rel_error_maxabs": 0.006571295184865593,
+      "mu_min_min": 0.00035284819984856094,
+      "mu_max_max": 2.981580693969512,
+      "mean_spacing_mean": 0.9994137546665023,
+      "mean_spacing_sd": 0.0015925410171191011
+    },
+    {
+      "dataset": "low_height_first_10000",
+      "role": "primary",
+      "m": 512,
+      "n_locations": 16,
+      "D_C_points_mean": 0.9182093457897214,
+      "D_C_points_sd_location": 0.004609898814985153,
+      "D_C_prediction_mean": 0.9196789942892629,
+      "D_C_prediction_sd_location": 0.00068792778181253,
+      "D_C_bridge_bias_mean": -0.0014696484995416204,
+      "D_C_bridge_rmse": 0.0045003186307100585,
+      "frob_rel_error_mean": -0.0007712894859840379,
+      "frob_rel_error_maxabs": 0.008067203058672276,
+      "mu_min_min": 0.0002967935199174775,
+      "mu_max_max": 2.9816411621401633,
+      "mean_spacing_mean": 0.9998502180823603,
+      "mean_spacing_sd": 0.0007490261164973889
+    }
+  ],
+  "full_bridge": [
+    {
+      "dataset": "low_height_first_10000",
+      "N": 10000,
+      "L": 9999.229991128128,
+      "rho2_finite": 1.0000540041616544,
+      "pairs_within_30": 294472,
+      "frobC2_direct_window30_plus_diag": 19201.665065972804,
+      "D_C_direct": 0.9201665065972804,
+      "frobC2_pair_prediction": 19209.746092089597,
+      "D_C_pair_prediction": 0.9209746092089597,
+      "D_C_abs_difference": -0.0008081026116792955,
+      "frob_relative_difference": -0.0004208502798600453,
+      "tail_bound_ordered_pairs": 0.0
+    },
+    {
+      "dataset": "near_1e12",
+      "N": 10000,
+      "L": 10000.086868692197,
+      "rho2_finite": 0.9998826282252943,
+      "pairs_within_30": 294577,
+      "frobC2_direct_window30_plus_diag": 19458.139292762382,
+      "D_C_direct": 0.9458139292762382,
+      "frobC2_pair_prediction": 19466.30758585211,
+      "D_C_pair_prediction": 0.9466307585852112,
+      "D_C_abs_difference": -0.0008168293089729772,
+      "frob_relative_difference": -0.000419787985214384,
+      "tail_bound_ordered_pairs": 0.0
+    },
+    {
+      "dataset": "near_1e21",
+      "N": 10000,
+      "L": 9998.699107337858,
+      "rho2_finite": 1.0001602032879564,
+      "pairs_within_30": 294484,
+      "frobC2_direct_window30_plus_diag": 19514.35313513268,
+      "D_C_direct": 0.9514353135132678,
+      "frobC2_pair_prediction": 19530.118579797665,
+      "D_C_pair_prediction": 0.9530118579797664,
+      "D_C_abs_difference": -0.001576544466498575,
+      "frob_relative_difference": -0.0008078896879550359,
+      "tail_bound_ordered_pairs": 0.0
+    }
+  ]
+}

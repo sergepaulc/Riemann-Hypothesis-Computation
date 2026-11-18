@@ -1,0 +1,21 @@
+{
+  "document_id": "Experiment3BS_Environment_v1_1",
+  "note": "Runtime and memory are environment-specific and are excluded from scientific equivalence testing.",
+  "packages": {
+    "matplotlib": "3.10.8",
+    "mpmath": "1.3.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "pytest": "9.0.2",
+    "scipy": "1.17.0"
+  },
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "python_executable": "/opt/pyvenv/bin/python",
+  "thread_environment_used_for_clean_rerun": {
+    "MKL_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "VECLIB_MAXIMUM_THREADS": "2"
+  }
+}

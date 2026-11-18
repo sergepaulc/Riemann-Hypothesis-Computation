@@ -1,0 +1,5 @@
+{
+  "gaussian_sigma": 1.0,
+  "GUE_D_C_asymptotic": 0.952040560358893,
+  "formula": "2 integral_0^infinity exp(-u^2) [1-(sin(pi u)/(pi u))^2] du"
+}

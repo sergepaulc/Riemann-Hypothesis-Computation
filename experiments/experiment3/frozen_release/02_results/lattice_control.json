@@ -1,0 +1,16 @@
+{
+  "algebraic_closure_residual_by_construction": 0.0,
+  "index": 0,
+  "mean_spacing": 1.0,
+  "mu1": 1.0,
+  "mu2": 1.0,
+  "mu3": 1.0,
+  "mu4_gt2": 0.0,
+  "mu4_raw": 1.0,
+  "pair_part_per_core": 0.0,
+  "point_count": 512,
+  "q4_per_core": 0.0,
+  "source": "lattice",
+  "span": 511.0,
+  "three_index_part_per_core": 0.0
+}

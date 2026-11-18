@@ -1,0 +1,20 @@
+check,passed,value,criterion
+input_sha256::low_height_points,True,de949c189fd6f0850028c65dc3a8d9830e579f54c50ebbf564c563b09e7c1c7a,must equal preregistered SHA-256
+input_sha256::low_height_pair_correlation,True,a12a37dc693e8615fdd904c8cce42cad053dabbcdb1f7118f3c4cf7bc43a06aa,must equal preregistered SHA-256
+input_sha256::near_1e12_points,True,ed762a6863eb3c2a0f3b9d5a91d1bce6a99d976b3c10112b73a1f1e3e31a0360,must equal preregistered SHA-256
+input_sha256::near_1e12_pair_correlation,True,b203faaa0426cc262bf88401495518633026464fb0f7196e3338e8c37799ee7e,must equal preregistered SHA-256
+input_sha256::near_1e21_points,True,fae0106ab0486c84b361f9772a643653944e1b2e9a8720540240a1bb65952140,must equal preregistered SHA-256
+input_sha256::near_1e21_pair_correlation,True,85797f352d44c73a6c849e3aac126fde79c93a757e23795c0454c86a5e1662ba,must equal preregistered SHA-256
+nested_block_geometry,True,16,16 exactly nested common locations
+row_count_blocks,True,144,3 datasets * 16 locations * 3 sizes = 144
+row_count_inertia,True,2592,144 blocks * 18 lambdas = 2592
+C_PSD,True,9.420899603129862e-05,no eigenvalue below negative PSD tolerance
+no_unresolved_grid_signs,True,0,zero unresolved signs on frozen grid
+trace_identity,True,1.1368683772161605e-13,< 1e-10
+H_frobenius_identity,True,3.410605131648481e-13,< 1e-9
+C_frobenius_spectral_identity,True,5.684341886080801e-13,< 1e-9
+direct_H_spectrum_identity,True,2.4868995751603507e-14,< 1e-12
+positive_inertia_bound,True,-1.4138493863299146,bound never exceeds resolved positive count
+independent_scipy_mu_min,True,1.1817803680091998e-17,< 1e-11
+independent_scipy_mu_max,True,0.0,< 1e-11
+GUE_weighted_benchmark_recompute,True,2.220446049250313e-16,< 1e-11

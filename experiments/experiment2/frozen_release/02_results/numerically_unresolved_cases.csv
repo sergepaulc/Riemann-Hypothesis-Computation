@@ -1,0 +1,1 @@
+dataset,role,location_id,m,lambda,n_pos_res,n_neg_res,n_unres,p_pos_res,p_neg_res,p_unres,H_norm2_from_spectrum,epsilon_screen,min_abs_H_eigenvalue,trace_formula,trace_spectrum,trace_abs_error,frobH2_formula,frobH2_spectrum,frobH2_abs_error,npos_lower_bound_raw,b_pos_normalized,bound_slack_fraction
