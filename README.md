@@ -15,8 +15,6 @@ Experiment 1 measures pair correlation in three samples of $`10,000`$ zeros. The
 
 [Markdown](paper/Zeta_Zeros_Spectral_Statistics_v1.0.md)
 
-Canonical repository: https://github.com/sergepaulc/Riemann-Hypothesis-Computation
-
 ## Run the computations
 
 Use Python 3.13 on macOS, Linux, or Windows with WSL. This package was tested on Linux with Python 3.13.5; see [validation results](docs/VALIDATION.md).
