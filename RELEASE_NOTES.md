@@ -15,7 +15,7 @@ The package omits earlier drafts, governance specifications, internal review mat
 
 GitHub mathematics uses fenced `math` blocks and protected inline expressions. Upright real-part notation is written as `\mathrm{Re}`. The critical-strip expression, piecewise delimiters, mathematical table cells, and figure links have been checked. Unsupported image-size attributes have been removed from the GitHub Markdown.
 
-The Word document's 589 equation text sequences are preserved. Display properties for greater-than and negative-fraction labels were normalized to prevent Word-to-PDF conversion errors. Repository-availability wording and the two old software-release references were adjusted to match this clean package. The PDF now follows the Word layout (34 pages). No scientific formulas or numerical results are changed by this cleanup.
+The paper's scientific formulas and numerical results are unchanged.
 
 ## Validation scope
 
