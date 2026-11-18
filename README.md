@@ -1,8 +1,6 @@
 # Riemann Hypothesis Computation
 
-**Version 1.0 — Code, data, and research paper**
-
-A computational investigation of pair correlations and spectral statistics of Riemann-zeta zeros. The repository contains three finite experiments, their numerical inputs and reference outputs, and checks of the calculations. It does not prove or disprove the Riemann Hypothesis.
+A computational investigation of pair correlations and spectral statistics of Riemann-zeta zeros. This repository contains three finite experiments, their numerical inputs and reference outputs, and checks of the calculations.
 
 ## Read the paper
 *A Computational Walk from Pair Correlation to Higher-Order Spectral Statistics of Zeta Zeros, Version 1.0.*
