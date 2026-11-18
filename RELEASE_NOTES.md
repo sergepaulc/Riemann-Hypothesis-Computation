@@ -4,7 +4,7 @@ This release accompanies the Version 1.0 paper, *A Computational Walk from Pair 
 
 ## Included
 
-- The paper in PDF, GitHub-compatible Markdown, and Word, with its eight publication figures.
+- The paper in GitHub-compatible Markdown, with its eight publication figures.
 - The three computational experiments, their recorded settings, derived input data, machine-readable reference results, and numerical tests.
 - Reproduction commands that operate in isolated work directories and compare regenerated tables with the supplied reference values.
 - Pinned Python dependencies, original-source download instructions, citation metadata, and license information.
