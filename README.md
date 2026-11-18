@@ -13,7 +13,7 @@ Experiment 1 measures pair correlation in three samples of $`10,000`$ zeros. The
 
 **Paper**
 
-[Markdown](paper/Zeta_Zeros_Spectral_Statistics_v1.0.md)
+[Markdown Version 1.0](paper/Zeta_Zeros_Spectral_Statistics_v1.0.md)
 
 ## Run the computations
 
