@@ -5,7 +5,7 @@
 A computational investigation of pair correlations and spectral statistics of Riemann-zeta zeros. The repository contains three finite experiments, their numerical inputs and reference outputs, and checks of the calculations. It does not prove or disprove the Riemann Hypothesis.
 
 ## Read the paper
-## Abstract
+**Abstract**
 
 We study, through three reproducible experiments, how finite kernel-based spectral observables encode structure in unfolded Riemann-zeta zero configurations. Motivated by the 2026 quadratic and second-moment results of Alpöge--Furman and Lamzouri, we investigate a complementary finite question: which features of a zero configuration are retained by a chosen observable?
 
