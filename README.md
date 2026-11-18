@@ -50,14 +50,14 @@ The [reproduction guide](docs/REPRODUCING.md) gives the commands and their limit
 ## Repository contents
 
 ```text
-paper/                       Final paper in three formats and its eight figures
-experiments/experiment1/      Pair-correlation code, inputs, reference outputs, tests
-experiments/experiment2/      Gaussian code, inputs, reference outputs, numerical checks
-experiments/experiment3/      Sinc code, inputs, reference outputs, numerical checks
+paper/                       Markdown paper and its eight figures
+experiments/experiment1/     Pair-correlation code, inputs, reference outputs, tests
+experiments/experiment2/     Gaussian code, inputs, reference outputs, numerical checks
+experiments/experiment3/     Sinc code, inputs, reference outputs, numerical checks
 scripts/                     Reproduction and package checks
 data/                        Original-source catalogue and optional downloader
 docs/                        Reproduction, result mapping, and validation information
-manifests/input_data.json     Automated checks of scientific inputs only
+manifests/input_data.json    Automated checks of scientific inputs only
 ```
 
 There are no governance specifications, internal review conversations, earlier paper drafts, or Git history in this upload package. Some computational filenames retain their original implementation identifiers to avoid unnecessary changes; the public package and paper version are **1.0**.
