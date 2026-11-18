@@ -1,0 +1,73 @@
+{
+  "description": "Only scientific inputs and settings; documentation is not checksum-locked.",
+  "files": [
+    {
+      "path": "experiments/experiment3/frozen_release/00_protocol/D1_zeta_near_1e12_unfolded.csv",
+      "sha256": "ed762a6863eb3c2a0f3b9d5a91d1bce6a99d976b3c10112b73a1f1e3e31a0360"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/00_protocol/experiment3_config.json",
+      "sha256": "599a4ccd1b2c208d70cfa950c1c116e00679555acfe523588c3621d8d05c8584"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/00_protocol/D2_zeta_near_1e21_unfolded.csv",
+      "sha256": "fae0106ab0486c84b361f9772a643653944e1b2e9a8720540240a1bb65952140"
+    },
+    {
+      "path": "experiments/experiment3/frozen_release/00_protocol/D0_zeta_first_10000_unfolded.csv",
+      "sha256": "de949c189fd6f0850028c65dc3a8d9830e579f54c50ebbf564c563b09e7c1c7a"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/00_preregistration/block_manifest_v1.csv",
+      "sha256": "5dd855d2e71f5b935d03e34dcf6e379a6b0bdcb6d2dcc43c82e679a3cae299dc"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/00_preregistration/experiment2_config_v1_frozen.json",
+      "sha256": "274b82c235f5e4a56ab529dad4166281014f7aec814f1ab3d5b21c6a1695e933"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/01_inputs/near_1e21_pair_correlation.csv",
+      "sha256": "85797f352d44c73a6c849e3aac126fde79c93a757e23795c0454c86a5e1662ba"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/01_inputs/low_height_zeta_unfolded_points.csv",
+      "sha256": "de949c189fd6f0850028c65dc3a8d9830e579f54c50ebbf564c563b09e7c1c7a"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/01_inputs/near_1e12_unfolded_points.csv",
+      "sha256": "ed762a6863eb3c2a0f3b9d5a91d1bce6a99d976b3c10112b73a1f1e3e31a0360"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/01_inputs/low_height_zeta_pair_correlation.csv",
+      "sha256": "a12a37dc693e8615fdd904c8cce42cad053dabbcdb1f7118f3c4cf7bc43a06aa"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/01_inputs/near_1e12_pair_correlation.csv",
+      "sha256": "b203faaa0426cc262bf88401495518633026464fb0f7196e3338e8c37799ee7e"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/01_inputs/near_1e21_unfolded_points.csv",
+      "sha256": "fae0106ab0486c84b361f9772a643653944e1b2e9a8720540240a1bb65952140"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/zeta_unfolded_points.csv",
+      "sha256": "de949c189fd6f0850028c65dc3a8d9830e579f54c50ebbf564c563b09e7c1c7a"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/02_primary_low_height/experiment1_config_v1_frozen.json",
+      "sha256": "c41f6f2f62c7f4f9991d31e113e0c4efbb1964884a8fbe5cba4cd4b165cc7259"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/near_1e12_unfolded_points.csv",
+      "sha256": "ed762a6863eb3c2a0f3b9d5a91d1bce6a99d976b3c10112b73a1f1e3e31a0360"
+    },
+    {
+      "path": "experiments/experiment1/frozen_release/04_high_height_controls/near_1e21_unfolded_points.csv",
+      "sha256": "fae0106ab0486c84b361f9772a643653944e1b2e9a8720540240a1bb65952140"
+    },
+    {
+      "path": "experiments/experiment2/frozen_release/00_preregistration/theoretical_GUE_gaussian_benchmark.json",
+      "sha256": "105a57cbbda6798be5621a5b2f1db19faf7c9648d38e568d65f80450fa9117b5"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "validation_date": "2026-11-17",
+  "software_version": "1.0",
+  "source": "Saved complete computational archive dated September 15, 2026, plus the corrected Version 1.0 paper; not a verified copy of later live GitHub edits.",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "mpmath": "1.3.0",
+    "pytest": "9.0.2"
+  },
+  "experiment_reruns": [
+    {
+      "experiment": "1",
+      "status": "PASS",
+      "scope": "Three full-sample pair histograms, counts, D0.5 and S30. Stored GUE/Poisson calibration ensembles are not resimulated by this runner.",
+      "validation_checks": [
+        {
+          "D0_5_abs_error": 3.636642359472475e-08,
+          "S30_abs_error": 1.383111047692509e-06,
+          "dataset": "first_10000",
+          "observed_pair_count_match": true,
+          "passed": true
+        },
+        {
+          "D0_5_abs_error": 9.367506770274758e-17,
+          "S30_abs_error": 7.549516567451064e-15,
+          "dataset": "near_1e12",
+          "observed_pair_count_match": true,
+          "passed": true
+        },
+        {
+          "D0_5_abs_error": 6.938893903907228e-18,
+          "S30_abs_error": 0.0,
+          "dataset": "near_1e21",
+          "observed_pair_count_match": true,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "experiment": "2",
+      "status": "PASS",
+      "checks": {
+        "all_passed": true,
+        "n_checks": 19,
+        "n_passed": 19,
+        "n_failed": 0
+      },
+      "comparisons": [
+        {
+          "table": "inertia_profiles_all_blocks.csv",
+          "rows": 2592,
+          "status": "PASS",
+          "max_absolute_difference": 5.115907697472721e-13
+        },
+        {
+          "table": "full_dataset_pair_bridge_checks.csv",
+          "rows": 3,
+          "status": "PASS",
+          "max_absolute_difference": 0.0
+        }
+      ]
+    },
+    {
+      "experiment": "3",
+      "status": "PASS",
+      "comparisons": [
+        {
+          "table": "all_window_endpoints.csv",
+          "rows": 176,
+          "status": "PASS",
+          "max_absolute_difference": 0.0
+        },
+        {
+          "table": "group_summary.csv",
+          "rows": 5,
+          "status": "PASS",
+          "max_absolute_difference": 0.0
+        },
+        {
+          "table": "mu4_difference_decomposition_vs_cue.csv",
+          "rows": 3,
+          "status": "PASS",
+          "max_absolute_difference": 0.0
+        },
+        {
+          "table": "uncertainty_scale_comparison.csv",
+          "rows": 12,
+          "status": "PASS",
+          "max_absolute_difference": 0.0
+        }
+      ],
+      "collision_validation": "PASS",
+      "moment_validation": "PASS"
+    },
+    {
+      "experiment": "2-validation",
+      "status": "PASS",
+      "comparisons": [
+        {
+          "table": "sigma_sensitivity_summary.csv",
+          "rows": 27,
+          "status": "PASS",
+          "max_absolute_difference": 3.9968028886505635e-15
+        },
+        {
+          "table": "spectral_summary_sigma1.csv",
+          "rows": 9,
+          "status": "PASS",
+          "max_absolute_difference": 3.552713678800501e-15
+        },
+        {
+          "table": "independent_inertia_all_sigma.csv",
+          "rows": 7776,
+          "status": "PASS",
+          "max_absolute_difference": 1.219987652567589e-14
+        },
+        {
+          "table": "spectral_diagnostics_sigma1.csv",
+          "rows": 144,
+          "status": "PASS",
+          "max_absolute_difference": 3.369859769009054e-08
+        },
+        {
+          "table": "independent_full_dataset_pair_bridge_all_sigma.csv",
+          "rows": 9,
+          "status": "PASS",
+          "max_absolute_difference": 0.0
+        },
+        {
+          "table": "analytic_kernel_benchmarks.csv",
+          "rows": 3,
+          "status": "PASS",
+          "max_absolute_difference": 0.0
+        },
+        {
+          "table": "independent_inertia_summary_all_sigma.csv",
+          "rows": 486,
+          "status": "PASS",
+          "max_absolute_difference": 0.0
+        },
+        {
+          "table": "independent_block_metrics_all_sigma.csv",
+          "rows": 432,
+          "status": "PASS",
+          "max_absolute_difference": 1.1368683772161603e-12
+        }
+      ],
+      "scope": "Rerun compared against the archived supplementary validator outputs, not against differently normalized primary error diagnostics."
+    }
+  ],
+  "tests": {
+    "pytest": "11 passed",
+    "smoke": "PASS"
+  },
+  "latex": {
+    "renderer": "MathJax 3.2.1",
+    "expressions": 589,
+    "errors": 0,
+    "details": [],
+    "scope": "Local parser/render check; GitHub live preview not accessible."
+  },
+  "markdown": {
+    "display_equations": 89,
+    "inline_expressions": 500,
+    "tables": 17,
+    "equation_text_survives_markdown": true,
+    "figure_links": 8
+  },
+  "paper": {
+    "pdf_pages": 34,
+    "equations_with_preserved_math_text": 589,
+    "word_label_rendering_normalized": 13,
+    "scientific_results_changed": false
+  },
+  "limitations": [
+    "Experiment 1 finite-GUE/Poisson calibration outputs are supplied but their complete original generation pipeline is not present in the source archive.",
+    "No fresh original Odlyzko downloads or fresh online dependency installation were performed; included derived inputs were used.",
+    "Local MathJax and PDF/Word checks are not a verification of GitHub live rendering.",
+    "Not all publication panels were regenerated pixel-for-pixel; eight final publication images are supplied.",
+    "This is package/numerical validation, not external peer review or a new proof audit."
+  ],
+  "package_checks": {
+    "status": "PASS",
+    "input_files_checked": 17,
+    "markdown_files_checked": 12,
+    "relative_links_checked": 26,
+    "display_equations": 89,
+    "inline_expressions": 500,
+    "paper_figures": 8,
+    "failures": [],
+    "scope": "Structural checks; MathJax rendering and numerical reruns are separate."
+  }
+}
