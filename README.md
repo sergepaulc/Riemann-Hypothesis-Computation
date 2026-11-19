@@ -77,7 +77,6 @@ The eight publication figures are supplied with the paper. The numerical runners
 ## Release and citation
 
 - [Release notes](RELEASE_NOTES.md)
-- [How to publish Version 1.0](docs/PUBLISHING.md)
 - [Citation metadata](CITATION.cff)
 - [License](LICENSE) and [third-party notices](NOTICE.md)
 
