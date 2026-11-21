@@ -77,7 +77,10 @@ The eight publication figures are supplied with the paper. The numerical runners
 ## Release and citation
 
 - [Release notes](RELEASE_NOTES.md)
+  
 - [Citation metadata](CITATION.cff)
+Carrasco, SP (2026). Riemann Hypothesis Computation: reproducibility code and data (Version 1.0). https://github.com/sergepaulc/Riemann-Hypothesis- Computation
+  
 - [License](LICENSE) and [third-party notices](NOTICE.md)
 
 The existing MIT license for original code and documentation is retained. The notices explain the separate status of third-party data.
